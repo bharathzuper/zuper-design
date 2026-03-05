@@ -1,0 +1,1204 @@
+{
+    "JOB": [
+        {
+            "label": "ETA",
+            "key": "eta"
+        },
+        {
+            "label": "Work Order Number",
+            "key": "work_order_number"
+        },
+        {
+            "label": "Job Title",
+            "key": "job_title"
+        },
+        {
+            "label": "Scheduled Start Time",
+            "key": "scheduled_start_time"
+        },
+        {
+            "label": "Scheduled End Time",
+            "key": "scheduled_end_time"
+        },
+        {
+            "label": "Job Priority",
+            "key": "job_priority"
+        },
+        {
+            "label": "Job Category Name",
+            "key": "job_category.category_name"
+        },
+        {
+            "label": "Assigned to FE",
+            "key": "assigned_to_fe"
+        },
+        {
+            "label": "Assigned to TL",
+            "key": "assigned_to_tl"
+        },
+        {
+            "label": "Assigned to Team",
+            "key": "assigned_to_team"
+        },
+        {
+            "label": "Job Description",
+            "key": "job_description"
+        },
+        {
+            "label": "Created By First Name",
+            "key": "created_by.first_name"
+        },
+        {
+            "label": "Created By Last Name",
+            "key": "created_by.last_name"
+        },
+        {
+            "label": "Customer First Name",
+            "key": "customer.customer_first_name"
+        },
+        {
+            "label": "Customer Last Name",
+            "key": "customer.customer_last_name"
+        },
+        {
+            "label": "Customer Company Name",
+            "key": "customer.customer_company_name"
+        },
+        {
+            "label": "Customer Email",
+            "key": "customer.customer_email"
+        },
+        {
+            "label": "Customer Category Name",
+            "key": "customer.customer_category.category_name"
+        },
+        {
+            "label": "Customer Contact Number - Home",
+            "key": "customer.customer_contact_no.home"
+        },
+        {
+            "label": "Customer Contact Number - Work",
+            "key": "customer.customer_contact_no.work"
+        },
+        {
+            "label": "Customer Contact Number - Mobile",
+            "key": "customer.customer_contact_no.mobile"
+        },
+        {
+            "label": "Customer Billing Address - Street",
+            "key": "customer_billing_address.street"
+        },
+        {
+            "label": "Customer Billing Address - City",
+            "key": "customer_billing_address.city"
+        },
+        {
+            "label": "Customer Billing Address - Landmark",
+            "key": "customer_billing_address.landmark"
+        },
+        {
+            "label": "Customer Billing Address - State",
+            "key": "customer_billing_address.state"
+        },
+        {
+            "label": "Customer Billing Address - Country",
+            "key": "customer_billing_address.country"
+        },
+        {
+            "label": "Customer Billing Address - Zip Code",
+            "key": "customer_billing_address.zip_code"
+        },
+        {
+            "label": "Customer Address - Street",
+            "key": "customer_address.street"
+        },
+        {
+            "label": "Customer Address - City",
+            "key": "customer_address.city"
+        },
+        {
+            "label": "Customer Address - Landmark",
+            "key": "customer_address.landmark"
+        },
+        {
+            "label": "Customer Address - State",
+            "key": "customer_address.state"
+        },
+        {
+            "label": "Customer Address - Country",
+            "key": "customer_address.country"
+        },
+        {
+            "label": "Customer Address - Zip Code",
+            "key": "customer_address.zip_code"
+        },
+        {
+            "label": "Job Type",
+            "key": "job_type"
+        },
+        {
+            "label": "Job Recurrence",
+            "key": "is_recurrence"
+        },
+        {
+            "label": "Job Due Date",
+            "key": "due_date"
+        },
+        {
+            "label": "Job Tags",
+            "key": "job_tags"
+        },
+        {
+            "label": "Job Feedback - Rating",
+            "key": "job_feedback"
+        },
+        {
+            "label": "Job Status - Name",
+            "key": "current_job_status.status_name"
+        },
+        {
+            "label": "Job Status - Type",
+            "key": "current_job_status.status_type"
+        },
+        {
+            "label": "Customer Description",
+            "key": "customer.customer_description"
+        },
+        {
+            "label": "Asset Name",
+            "key": "asset_name"
+        },
+        {
+            "label": "Asset Code",
+            "key": "asset_code"
+        },
+        {
+            "label": "Service Contract - Name",
+            "key": "service_contract_name"
+        },
+        {
+            "label": "Job Feedback Page",
+            "key": "feedback_url"
+        },
+        {
+            "label": "Job Details Page",
+            "key": "details_url"
+        },
+        {
+            "label": "Company Name",
+            "key": "company.company_name"
+        },
+        {
+            "label": "Company Address",
+            "key": "company.company_address"
+        },
+        {
+            "label": "Company Country",
+            "key": "company.company_country"
+        },
+        {
+            "label": "Company Currency",
+            "key": "company.company_currency"
+        },
+        {
+            "label": "Company Logo",
+            "key": "company_logo"
+        },
+        {
+            "label": "Company Phone",
+            "key": "company.company_phone"
+        },
+        {
+            "label": "Company Timezone",
+            "key": "company.company_timezone"
+        },
+        {
+            "label": "Company Email",
+            "key": "company.company_email"
+        }
+    ],
+    "QUOTE": [
+        {
+            "label": "Quote No",
+            "key": "estimate_no"
+        },
+        {
+            "label": "Customer First Name",
+            "key": "customer.customer_first_name"
+        },
+        {
+            "label": "Customer Last Name",
+            "key": "customer.customer_last_name"
+        },
+        {
+            "label": "Customer Company Name",
+            "key": "customer.customer_company_name"
+        },
+        {
+            "label": "Customer Email",
+            "key": "customer.customer_email"
+        },
+        {
+            "label": "Customer Contact No - Mobile",
+            "key": "customer.customer_contact_no.mobile"
+        },
+        {
+            "label": "Customer Contact No - Home",
+            "key": "customer.customer_contact_no.home"
+        },
+        {
+            "label": "Customer Contact No - Work",
+            "key": "customer.customer_contact_no.work"
+        },
+        {
+            "label": "Expiry Date",
+            "key": "quote_expiry_date"
+        },
+        {
+            "label": "Quote Date",
+            "key": "quote_date"
+        },
+        {
+            "label": "Remarks",
+            "key": "remarks"
+        },
+        {
+            "label": "Created By Employee Code",
+            "key": "created_by.emp_code"
+        },
+        {
+            "label": "Created By Employee First Name",
+            "key": "created_by.first_name"
+        },
+        {
+            "label": "Created By Employee Last Name",
+            "key": "created_by.last_name"
+        },
+        {
+            "label": "Created By Employee Email",
+            "key": "created_by.email"
+        },
+        {
+            "label": "Created By Employee Designation",
+            "key": "created_by.designation"
+        },
+        {
+            "label": "Created By Employee Phone No - Home",
+            "key": "created_by.home_phone_number"
+        },
+        {
+            "label": "Created By Employee Phone No - Work",
+            "key": "created_by.work_phone_number"
+        },
+        {
+            "label": "Created By Employee Phone No - Mobile",
+            "key": "created_by.mobile_phone_number"
+        },
+        {
+            "label": "Total",
+            "key": "total"
+        },
+        {
+            "label": "Sub Total",
+            "key": "sub_total"
+        },
+        {
+            "label": "Customer Billing Address - City",
+            "key": "customer_billing_address.city"
+        },
+        {
+            "label": "Customer Billing Address - State",
+            "key": "customer_billing_address.state"
+        },
+        {
+            "label": "Customer Billing Address - Street",
+            "key": "customer_billing_address.street"
+        },
+        {
+            "label": "Customer Billing Address - Country",
+            "key": "customer_billing_address.country"
+        },
+        {
+            "label": "Customer Billing Address - Landmark",
+            "key": "customer_billing_address.landmark"
+        },
+        {
+            "label": "Customer Billing Address - Zip Code",
+            "key": "customer_billing_address.zip_code"
+        },
+        {
+            "label": "Work Order Number",
+            "key": "job.work_order_number"
+        },
+        {
+            "label": "Job Title",
+            "key": "job.job_title"
+        },
+        {
+            "label": "Job Priority",
+            "key": "job.job_priority"
+        },
+        {
+            "label": "Job Scheduled Start Time",
+            "key": "job_start_time"
+        },
+        {
+            "label": "Job Scheduled End Time",
+            "key": "job_end_time"
+        },
+        {
+            "label": "Job Prefix",
+            "key": "job.prefix"
+        },
+        {
+            "label": "Reference No",
+            "key": "reference_no"
+        },
+        {
+            "label": "Quote Public Page",
+            "key": "quote_public_page"
+        },
+        {
+            "label": "Quote Deposit Collection Page",
+            "key": "deposit_payment_url"
+        },
+        {
+            "label": "Company Name",
+            "key": "company.company_name"
+        },
+        {
+            "label": "Company Address",
+            "key": "company.company_address"
+        },
+        {
+            "label": "Company Country",
+            "key": "company.company_country"
+        },
+        {
+            "label": "Company Currency",
+            "key": "company.company_currency"
+        },
+        {
+            "label": "Company Logo",
+            "key": "company_logo"
+        },
+        {
+            "label": "Company Phone",
+            "key": "company.company_phone"
+        },
+        {
+            "label": "Company Timezone",
+            "key": "company.company_timezone"
+        },
+        {
+            "label": "Company Email",
+            "key": "company.company_email"
+        }
+    ],
+    "INVOICE": [
+        {
+            "label": "Invoice No",
+            "key": "invoice_no"
+        },
+        {
+            "label": "Customer First Name",
+            "key": "customer.customer_first_name"
+        },
+        {
+            "label": "Customer Last Name",
+            "key": "customer.customer_last_name"
+        },
+        {
+            "label": "Customer Company Name",
+            "key": "customer.customer_company_name"
+        },
+        {
+            "label": "Customer Email",
+            "key": "customer.customer_email"
+        },
+        {
+            "label": "Customer Contact No - Home",
+            "key": "customer.customer_contact_no.home"
+        },
+        {
+            "label": "Customer Contact No - Work",
+            "key": "customer.customer_contact_no.work"
+        },
+        {
+            "label": "Customer Contact No - Mobile",
+            "key": "customer.customer_contact_no.mobile"
+        },
+        {
+            "label": "Invoice Due Date",
+            "key": "invoice_due_date"
+        },
+        {
+            "label": "Quote No",
+            "key": "estimate.estimate_no"
+        },
+        {
+            "label": "Quote Expiry Date",
+            "key": "expiry_date_of_quote_associated_with_invoice"
+        },
+        {
+            "label": "Quote Date",
+            "key": "date_of_quote_associated_with_invoice"
+        },
+        {
+            "label": "Quote Prefix",
+            "key": "estimate.prefix"
+        },
+        {
+            "label": "Quote Created By Employee Code",
+            "key": "estimate.created_by.emp_code"
+        },
+        {
+            "label": "Quote Created By Employee First Name",
+            "key": "estimate.created_by.first_name"
+        },
+        {
+            "label": "Quote Created By Employee Last Name",
+            "key": "estimate.created_by.last_name"
+        },
+        {
+            "label": "Quote Created By Employee Email",
+            "key": "estimate.created_by.email"
+        },
+        {
+            "label": "Quote Created By Employee Designation",
+            "key": "estimate.created_by.designation"
+        },
+        {
+            "label": "Quote Created By Employee Phone No - Home",
+            "key": "estimate.created_by.home_phone_number"
+        },
+        {
+            "label": "Quote Created By Employee Phone No - Work",
+            "key": "estimate.created_by.work_phone_number"
+        },
+        {
+            "label": "Quote Created By Employee Phone No - Mobile",
+            "key": "estimate.created_by.mobile_phone_number"
+        },
+        {
+            "label": "Quote Status",
+            "key": "estimate.estimate_status"
+        },
+        {
+            "label": "Quote Total",
+            "key": "estimate.total"
+        },
+        {
+            "label": "Invoice Date",
+            "key": "invoice_date"
+        },
+        {
+            "label": "Work Order Number",
+            "key": "job.work_order_number"
+        },
+        {
+            "label": "Job Title",
+            "key": "job.job_title"
+        },
+        {
+            "label": "Job Priority",
+            "key": "job.job_priority"
+        },
+        {
+            "label": "Job Scheduled Start Time",
+            "key": "job_start_time"
+        },
+        {
+            "label": "Job Scheduled End Time",
+            "key": "job_end_time"
+        },
+        {
+            "label": "Job Prefix",
+            "key": "job.prefix"
+        },
+        {
+            "label": "Payment Term Name",
+            "key": "payment_term.payment_term_name"
+        },
+        {
+            "label": "Payment Term No of days",
+            "key": "payment_term.no_of_days"
+        },
+        {
+            "label": "Invoice Prefix",
+            "key": "prefix"
+        },
+        {
+            "label": "Invoice Remarks",
+            "key": "remarks"
+        },
+        {
+            "label": "Created By Employee Code",
+            "key": "created_by.emp_code"
+        },
+        {
+            "label": "Created By Employee First Name",
+            "key": "created_by.first_name"
+        },
+        {
+            "label": "Created By Employee Last Name",
+            "key": "created_by.last_name"
+        },
+        {
+            "label": "Created By Employee Email",
+            "key": "created_by.email"
+        },
+        {
+            "label": "Created By Employee Designation",
+            "key": "created_by.designation"
+        },
+        {
+            "label": "Created By Employee Phone No - Home",
+            "key": "created_by.home_phone_number"
+        },
+        {
+            "label": "Created By Employee Phone No - Work",
+            "key": "created_by.work_phone_number"
+        },
+        {
+            "label": "Created By Employee Phone No - Mobile",
+            "key": "created_by.mobile_phone_number"
+        },
+        {
+            "label": "Invoice Total",
+            "key": "total"
+        },
+        {
+            "label": "Invoice Sub Total",
+            "key": "sub_total"
+        },
+        {
+            "label": "Customer Billing Address - City",
+            "key": "customer_billing_address.city"
+        },
+        {
+            "label": "Customer Billing Address - State",
+            "key": "customer_billing_address.state"
+        },
+        {
+            "label": "Customer Billing Address - Street",
+            "key": "customer_billing_address.street"
+        },
+        {
+            "label": "Customer Billing Address - Country",
+            "key": "customer_billing_address.country"
+        },
+        {
+            "label": "Customer Billing Address - Landmark",
+            "key": "customer_billing_address.landmark"
+        },
+        {
+            "label": "Customer Billing Address - Zip Code",
+            "key": "customer_billing_address.zip_code"
+        },
+        {
+            "label": "Invoice Public Page",
+            "key": "invoice_public_page"
+        },
+        {
+            "label": "Invoice Payment Page",
+            "key": "invoice_payment_page"
+        },
+        {
+            "label": "Company Name",
+            "key": "company.company_name"
+        },
+        {
+            "label": "Company Address",
+            "key": "company.company_address"
+        },
+        {
+            "label": "Company Country",
+            "key": "company.company_country"
+        },
+        {
+            "label": "Company Currency",
+            "key": "company.company_currency"
+        },
+        {
+            "label": "Company Logo",
+            "key": "company_logo"
+        },
+        {
+            "label": "Company Phone",
+            "key": "company.company_phone"
+        },
+        {
+            "label": "Company Timezone",
+            "key": "company.company_timezone"
+        },
+        {
+            "label": "Company Email",
+            "key": "company.company_email"
+        }
+    ],
+    "ASSET": [
+        {
+            "label": "Asset Name",
+            "key": "asset_name"
+        },
+        {
+            "label": "Asset Code",
+            "key": "asset_code"
+        },
+        {
+            "label": "Asset Category Name",
+            "key": "asset_category.category_name"
+        },
+        {
+            "label": "Purchase Date",
+            "key": "purchase_date"
+        },
+        {
+            "label": "Warranty Expiry Date",
+            "key": "warranty_expiry_date"
+        },
+        {
+            "label": "Placed in Service",
+            "key": "placed_in_service"
+        },
+        {
+            "label": "Asset Location - Street",
+            "key": "asset_location.street"
+        },
+        {
+            "label": "Asset Location - City",
+            "key": "asset_location.city"
+        },
+        {
+            "label": "Asset Location - State",
+            "key": "asset_location.state"
+        },
+        {
+            "label": "Asset Location - Country",
+            "key": "asset_location.country"
+        },
+        {
+            "label": "Asset Location - Zip Code",
+            "key": "asset_location.zip_code"
+        },
+        {
+            "label": "Asset Location - Landmark",
+            "key": "asset_location.landmark"
+        },
+        {
+            "label": "Customer First Name",
+            "key": "customer.customer_first_name"
+        },
+        {
+            "label": "Customer Last Name",
+            "key": "customer.customer_last_name"
+        },
+        {
+            "label": "Customer Last Name",
+            "key": "customer.customer_last_name"
+        },
+        {
+            "label": "Customer Email",
+            "key": "customer.customer_email"
+        },
+        {
+            "label": "Customer Company Name",
+            "key": "customer.customer_company_name"
+        },
+        {
+            "label": "Customer Category",
+            "key": "customer.customer_category.category_name"
+        },
+        {
+            "label": "Customer Customer Contact Number - Home",
+            "key": "customer.customer_contact_no.home"
+        },
+        {
+            "label": "Customer Customer Contact Number - Work",
+            "key": "customer.customer_contact_no.work"
+        },
+        {
+            "label": "Customer Customer Contact Number - Mobile",
+            "key": "customer.customer_contact_no.mobile"
+        },
+        {
+            "label": "Created By First Name",
+            "key": "created_by.first_name"
+        },
+        {
+            "label": "Created By Last Name",
+            "key": "created_by.last_name"
+        },
+        {
+            "label": "Company Name",
+            "key": "company.company_name"
+        },
+        {
+            "label": "Company Address",
+            "key": "company.company_address"
+        },
+        {
+            "label": "Company Country",
+            "key": "company.company_country"
+        },
+        {
+            "label": "Company Currency",
+            "key": "company.company_currency"
+        },
+        {
+            "label": "Company Logo",
+            "key": "company_logo"
+        },
+        {
+            "label": "Company Phone",
+            "key": "company.company_phone"
+        },
+        {
+            "label": "Company Timezone",
+            "key": "company.company_timezone"
+        },
+        {
+            "label": "Company Email",
+            "key": "company.company_email"
+        }
+    ],
+    "CONTRACT": [
+        {
+            "label": "Contract Number",
+            "key": "contract_number"
+        },
+        {
+            "label": "Contract Package Name",
+            "key": "contract_package.package_name"
+        },
+        {
+            "label": "Contract Package Description",
+            "key": "contract_package.package_description"
+        },
+        {
+            "label": "Contract Package Line Items",
+            "key": "contract_package.line_items"
+        },
+        {
+            "label": "Customer First Name",
+            "key": "customer.customer_first_name"
+        },
+        {
+            "label": "Customer Last Name",
+            "key": "customer.customer_last_name"
+        },
+        {
+            "label": "Customer Email",
+            "key": "customer.customer_email"
+        },
+        {
+            "label": "Customer Company Name",
+            "key": "customer.customer_company_name"
+        },
+        {
+            "label": "Contract Name",
+            "key": "contract_name"
+        },
+        {
+            "label": "Term Months",
+            "key": "term_months"
+        },
+        {
+            "label": "Contract - Description",
+            "key": "description"
+        },
+        {
+            "label": "Contract - Sub Total",
+            "key": "contract_subtotal"
+        },
+        {
+            "label": "Contract - Total",
+            "key": "contract_total"
+        },
+        {
+            "label": "Contract Start Date",
+            "key": "start_date"
+        },
+        {
+            "label": "Contract End Date",
+            "key": "end_date"
+        },
+        {
+            "label": "Created By - First Name",
+            "key": "created_by.first_name"
+        },
+        {
+            "label": "Created By - Last Name",
+            "key": "created_by.last_name"
+        },
+        {
+            "label": "Created By - Email",
+            "key": "created_by.email"
+        },
+        {
+            "label": "Created By - Employee Code",
+            "key": "created_by.emp_code"
+        },
+        {
+            "label": "Created By - Designation",
+            "key": "created_by.designation"
+        },
+        {
+            "label": "Created By - Home Phone Number",
+            "key": "created_by.home_phone_number"
+        },
+        {
+            "label": "Created By - Work Phone Number",
+            "key": "created_by.work_phone_number"
+        },
+        {
+            "label": "Created By - Mobile Phone Number",
+            "key": "created_by.mobile_phone_number"
+        },
+        {
+            "label": "Contract Approver - First Name",
+            "key": "await_approval_by.first_name"
+        },
+        {
+            "label": "Contract Approver - Last Name",
+            "key": "await_approval_by.last_name"
+        },
+        {
+            "label": "Contract Approver - Email",
+            "key": "await_approval_by.email"
+        },
+        {
+            "label": "Contract Approver - Employee Code",
+            "key": "await_approval_by.emp_code"
+        },
+        {
+            "label": "Contract Approver - Designation",
+            "key": "await_approval_by.designation"
+        },
+        {
+            "label": "Contract Approver - Home Phone Number",
+            "key": "await_approval_by.home_phone_number"
+        },
+        {
+            "label": "Contract Approver - Work Phone Number",
+            "key": "await_approval_by.work_phone_number"
+        },
+        {
+            "label": "Contract Approver - Mobile Phone Number",
+            "key": "await_approval_by.mobile_phone_number"
+        },
+        {
+            "label": "Tax",
+            "key": "tax"
+        },
+        {
+            "label": "Line Items",
+            "key": "line_items"
+        },
+        {
+            "label": "Invoice Template Type",
+            "key": "invoice_settings.invoice_template.type"
+        },
+        {
+            "label": "Invoice Template Name",
+            "key": "invoice_settings.invoice_template.template_name"
+        },
+        {
+            "label": "Invoice Template Description",
+            "key": "invoice_settings.invoice_template.template_description"
+        },
+        {
+            "label": "Billing Period Name",
+            "key": "invoice_settings.billing_period.billing_period_name"
+        },
+        {
+            "label": "Billing Period Type",
+            "key": "invoice_settings.billing_period.billing_period_type"
+        },
+        {
+            "label": "Billing Period Value",
+            "key": "invoice_settings.billing_period.billing_period_value"
+        },
+        {
+            "label": "Payment Term Name",
+            "key": "invoice_settings.payment_term.payment_term_name"
+        },
+        {
+            "label": "Payment Term - No. of Days",
+            "key": "invoice_settings.payment_term.no_of_days"
+        },
+        {
+            "label": "Company Name",
+            "key": "company.company_name"
+        },
+        {
+            "label": "Company Address",
+            "key": "company.company_address"
+        },
+        {
+            "label": "Company Country",
+            "key": "company.company_country"
+        },
+        {
+            "label": "Company Currency",
+            "key": "company.company_currency"
+        },
+        {
+            "label": "Company Logo",
+            "key": "company_logo"
+        },
+        {
+            "label": "Company Phone",
+            "key": "company.company_phone"
+        },
+        {
+            "label": "Company Timezone",
+            "key": "company.company_timezone"
+        },
+        {
+            "label": "Company Email",
+            "key": "company.company_email"
+        }
+    ],
+    "CUSTOMER": [
+        {
+            "label": "Customer First Name",
+            "key": "customer_first_name"
+        },
+        {
+            "label": "Customer Last Name",
+            "key": "customer_last_name"
+        },
+        {
+            "label": "Customer Company Name",
+            "key": "customer_company_name"
+        },
+        {
+            "label": "Customer Email",
+            "key": "customer_email"
+        },
+        {
+            "label": "Customer Category Name",
+            "key": "customer_category.category_name"
+        },
+        {
+            "label": "Customer Contact Number - Home",
+            "key": "customer_contact_no.home"
+        },
+        {
+            "label": "Customer Contact Number - Work",
+            "key": "customer_contact_no.work"
+        },
+        {
+            "label": "Customer Contact Number - Mobile",
+            "key": "customer_contact_no.mobile"
+        },
+        {
+            "label": "Customer Billing Address - Street",
+            "key": "customer_billing_address.street"
+        },
+        {
+            "label": "Customer Billing Address - City",
+            "key": "customer_billing_address.city"
+        },
+        {
+            "label": "Customer Billing Address - Landmark",
+            "key": "customer_billing_address.landmark"
+        },
+        {
+            "label": "Customer Billing Address - State",
+            "key": "customer_billing_address.state"
+        },
+        {
+            "label": "Customer Billing Address - Country",
+            "key": "customer_billing_address.country"
+        },
+        {
+            "label": "Customer Billing Address - Zip Code",
+            "key": "customer_billing_address.zip_code"
+        },
+        {
+            "label": "Customer Address - Street",
+            "key": "customer_address.street"
+        },
+        {
+            "label": "Customer Address - City",
+            "key": "customer_address.city"
+        },
+        {
+            "label": "Customer Address - Landmark",
+            "key": "customer_address.landmark"
+        },
+        {
+            "label": "Customer Address - State",
+            "key": "customer_address.state"
+        },
+        {
+            "label": "Customer Address - Country",
+            "key": "customer_address.country"
+        },
+        {
+            "label": "Customer Address - Zip Code",
+            "key": "customer_address.zip_code"
+        },
+        {
+            "label": "Company Name",
+            "key": "company.company_name"
+        },
+        {
+            "label": "Company Address",
+            "key": "company.company_address"
+        },
+        {
+            "label": "Company Country",
+            "key": "company.company_country"
+        },
+        {
+            "label": "Company Currency",
+            "key": "company.company_currency"
+        },
+        {
+            "label": "Company Logo",
+            "key": "company_logo"
+        },
+        {
+            "label": "Company Phone",
+            "key": "company.company_phone"
+        },
+        {
+            "label": "Company Timezone",
+            "key": "company.company_timezone"
+        },
+        {
+            "label": "Company Email",
+            "key": "company.company_email"
+        }
+    ],
+    "REQUEST": [
+        {
+            "label": "Request Title",
+            "key": "{{request_title}}"
+        },
+        {
+            "label": "Request ID",
+            "key": "{{request_id}}"
+        },
+        {
+            "label": "Request Priority",
+            "key": "{{request_priority}}"
+        },
+        {
+            "label": "Request Due Date",
+            "key": "request_due_date"
+        },
+        {
+            "label": "Request Preferred Date 1",
+            "key": "request_preferred_date1"
+        },
+        {
+            "label": "Request Preferred Date 2",
+            "key": "request_preferred_date2"
+        },
+        {
+            "label": "Customer First Name",
+            "key": "{{#if customer}} {{customer.customer_first_name}} {{/if}}"
+        },
+        {
+            "label": "Customer Last Name",
+            "key": "{{#if customer}} {{customer.customer_last_name}} {{/if}}"
+        },
+        {
+            "label": "Organization Name",
+            "key": "{{#if organization}} {{organization.organization_name}} {{/if}}"
+        },
+        {
+            "label": "Property Name",
+            "key": "{{#if property}} {{property.property_name}} {{/if}}"
+        },
+        {
+            "label": "Asset Name",
+            "key": "{{#if asset}} {{asset.asset_name}} {{/if}}"
+        },
+        {
+            "label": "Service Contract",
+            "key": "{{#if service_contract}} {{service_contract.contract_name}} {{/if}}"
+        },
+        {
+            "label": "Request Service Name",
+            "key": "{{#if request_service}} {{request_service.service_name}} {{/if}}"
+        },
+        {
+            "label": "Created By - First Name",
+            "key": "{{#if created_by}} {{created_by.first_name}} {{/if}}"
+        },
+        {
+            "label": "Created By - Last Name",
+            "key": "{{#if created_by}} {{created_by.last_name}} {{/if}}"
+        },
+        {
+            "label": "Service Address - Street",
+            "key": "{{#if service_address}} {{service_address.street}} {{/if}}"
+        },
+        {
+            "label": "Service Address - City",
+            "key": "{{#if service_address}} {{service_address.city}} {{/if}}"
+        },
+        {
+            "label": "Service Address - State",
+            "key": "{{#if service_address}} {{service_address.state}} {{/if}}"
+        },
+        {
+            "label": "Service Address - Zipcode",
+            "key": "{{#if service_address}} {{service_address.zip_code}} {{/if}}"
+        },
+        {
+            "label": "Billing Address - Street",
+            "key": "{{#if billing_address}} {{billing_address.street}} {{/if}}"
+        },
+        {
+            "label": "Billing Address - City",
+            "key": "{{#if billing_address}} {{billing_address.city}} {{/if}}"
+        },
+        {
+            "label": "Billing Address - State",
+            "key": "{{#if billing_address}} {{billing_address.state}} {{/if}}"
+        },
+        {
+            "label": "Billing Address - Zipcode",
+            "key": "{{#if billing_address}} {{billing_address.zip_code}} {{/if}}"
+        },
+        {
+            "label": "Company Name",
+            "key": "{{#if company}} {{company.company_name}} {{/if}}"
+        },
+        {
+            "label": "Company Address",
+            "key": "{{#if company}} {{company.company_address}} {{/if}}"
+        },
+        {
+            "label": "Company Country",
+            "key": "{{#if company}} {{company.company_country}} {{/if}}"
+        },
+        {
+            "label": "Company Currency",
+            "key": "{{#if company}} {{company.company_currency}} {{/if}}"
+        },
+        {
+            "label": "Company Logo",
+            "key": "company_logo"
+        },
+        {
+            "label": "Company Phone",
+            "key": "{{#if company}} {{company.company_phone}} {{/if}}"
+        },
+        {
+            "label": "Company Timezone",
+            "key": "{{#if company}} {{company.company_timezone}} {{/if}"
+        },
+        {
+            "label": "Company Email",
+            "key": "{{#if company}} {{company.company_email}} {{/if}"
+        }
+    ]
+}

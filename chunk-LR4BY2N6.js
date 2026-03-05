@@ -1,0 +1,1 @@
+var t=/^[^\s@]+@[^\s@]+\.[^\s@]+$/,o=/^\+?[1-9]\d{1,14}$/;var E="error";var _="new";var e="shared",A="EMAIL",T="SMS",r="new",n="manage";var s="list",I="detail";var c="cc",p="bcc";var x="md";var L="GALLERY";var R="picker",O="select";export{t as a,o as b,E as c,_ as d,e,A as f,T as g,r as h,n as i,s as j,I as k,c as l,p as m,x as n,L as o,R as p,O as q};

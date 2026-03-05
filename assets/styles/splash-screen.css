@@ -1,0 +1,109 @@
+body zuper-splash-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111827;
+    color: #F9FAFB;
+    z-index: 999999;
+    pointer-events: none;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body zuper-splash-screen img {
+    width: 120px;
+    max-width: 120px;
+}
+
+body zuper-splash-screen .spinner {
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    /* width: 56px; */
+}
+
+body zuper-splash-screen .loader {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    position: relative;
+    background: linear-gradient(0deg, rgba(114, 114, 114, 0.2) 40%, #ff3d00 100%);
+    box-sizing: border-box;
+    animation: rotation 0.35s linear infinite;
+  }
+  .loader::after {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #FFF;
+  }
+  @keyframes rotation {
+    0% { transform: rotate(0deg) }
+    100% { transform: rotate(360deg)}
+  } 
+
+/* 
+body zuper-splash-screen .spinner > div {
+    width: 12px;
+    height: 12px;
+    background-color: #1E96F7;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: zuper-bouncedelay 1s infinite ease-in-out both;
+    animation: zuper-bouncedelay 1s infinite ease-in-out both;
+}
+
+body zuper-splash-screen .spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+body zuper-splash-screen .spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes zuper-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0)
+    }
+    40% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes zuper-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+} */
+
+body:not(.zuper-splash-screen-hidden) {
+    overflow: hidden;
+}
+
+body.zuper-splash-screen-hidden zuper-splash-screen {
+    visibility: hidden;
+    opacity: 0;
+}

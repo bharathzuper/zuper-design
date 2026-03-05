@@ -1,0 +1,1 @@
+import{f as r,la as e}from"./chunk-34X77BBF.js";var n=(()=>{class t{constructor(){this.breadcrumbData=new r,this.breadcrumbAction=new r}static{this.\u0275fac=function(o){return new(o||t)}}static{this.\u0275prov=e({token:t,factory:t.\u0275fac,providedIn:"root"})}}return t})();export{n as a};

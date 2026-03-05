@@ -1,0 +1,3102 @@
+{
+    "JOB": {
+        "job_uid": "9dd67dc0-bbe8-11ed-8838-f713cc48f6bc",
+        "customer": {
+            "customer_first_name": "Charles",
+            "customer_uid": "15d12420-992c-11ea-8a16-59ce7fb29dfb",
+            "updated_at": "2023-04-11T12:42:06.104Z",
+            "created_at": "2020-05-18T17:22:01.186Z",
+            "is_deleted": false,
+            "is_active": true,
+            "custom_fields": [
+                {
+                    "label": "Text Input",
+                    "value": "",
+                    "type": "SINGLE_LINE",
+                    "hide_to_fe": false,
+                    "_id": "63e103e94711a2d51b1e25b6"
+                },
+                {
+                    "label": "Car Model No",
+                    "value": "",
+                    "type": "SINGLE_LINE",
+                    "hide_to_fe": false,
+                    "_id": "63e103e94711a2d51b1e25b7"
+                },
+                {
+                    "label": "Date Input",
+                    "value": "",
+                    "type": "DATE",
+                    "hide_to_fe": false,
+                    "group_name": "Group 1",
+                    "group_uid": "c6d5cc50-e65d-11ec-9fe8-9fccad37ffca",
+                    "_id": "63e103e94711a2d51b1e25b8"
+                }
+            ],
+            "customer_email": "Charles@Zuper.co",
+            "customer_company_name": "",
+            "customer_last_name": "",
+            "customer_category": null,
+            "customer_contact_no": null,
+            "customer_organization": {
+                "organization_uid": "bda7fb50-8585-11ec-8ac1-abcf5d932598",
+                "organization_name": "Sparkle Cleaning",
+                "organization_description": "<p>Provide <b>Cleaning Services</b> to customers.</p>",
+                "organization_email": "sparkle@sample.com",
+                "organization_address": {
+                    "city": "Washington ",
+                    "state": "District of Columbia ",
+                    "street": "Washington D.C., DC, USA",
+                    "country": "United States",
+                    "landmark": "",
+                    "geo_cordinates": [
+                        38.9071923,
+                        -77.0368707
+                    ]
+                },
+                "custom_fields": [],
+                "is_active": false,
+                "is_deleted": false,
+                "created_at": "2022-02-04T06:43:20.070Z",
+                "updated_at": "2023-03-23T11:39:23.706Z",
+                "organization_billing_address": {
+                    "city": "Mississauga",
+                    "street": "7676 Kimbel Street"
+                },
+                "organization_logo": null
+            }
+        },
+        "organization": {
+            "organization_uid": "bda7fb50-8585-11ec-8ac1-abcf5d932598",
+            "organization_name": "Sparkle Cleaning",
+            "organization_description": "<p>Provide <b>Cleaning Services</b> to customers.</p>",
+            "organization_email": "sparkle@sample.com",
+            "no_of_customers": 11,
+            "organization_address": {
+                "city": "Washington ",
+                "state": "District of Columbia ",
+                "street": "Washington D.C., DC, USA",
+                "country": "United States",
+                "landmark": "",
+                "geo_cordinates": [
+                    38.9071923,
+                    -77.0368707
+                ]
+            },
+            "custom_fields": [],
+            "is_active": false,
+            "is_deleted": false,
+            "created_at": "2022-02-04T06:43:20.070Z",
+            "updated_at": "2023-03-23T11:39:23.706Z",
+            "organization_billing_address": {
+                "city": "Mississauga",
+                "street": "7676 Kimbel Street"
+            },
+            "organization_logo": null
+        },
+        "prefix": "A12345",
+        "delayed_job": false,
+        "assigned_to_team": [
+            {
+                "team": {
+                    "team_uid": "2a6a4f30-7833-4e8f-a627-6d09bb6fe0c9",
+                    "team_name": "Alpha Team",
+                    "team_color": null,
+                    "is_active": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "assigned_to": [
+            {
+                "user": {
+                    "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+                    "first_name": "John",
+                    "last_name": "Mc Keever",
+                    "email": "admin@zuper.co",
+                    "external_login_id": null,
+                    "home_phone_number": "123456789",
+                    "designation": "Admin",
+                    "emp_code": "0001",
+                    "prefix": null,
+                    "work_phone_number": "123456789",
+                    "mobile_phone_number": null,
+                    "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+                    "hourly_labor_charge": 40,
+                    "is_active": true,
+                    "is_deleted": false,
+                    "created_at": "2020-05-07T06:19:34.000Z",
+                    "updated_at": "2022-12-19T06:10:59.000Z",
+                    "role": {
+                        "role_id": 1,
+                        "role_uid": "504e4eac-ff7d-11e7-8be5-0ed5f89f718b",
+                        "role_name": "Admin",
+                        "role_key": "ADMIN",
+                        "created_at": "2018-01-22T00:00:00.000Z",
+                        "updated_at": "2018-01-22T00:00:00.000Z"
+                    }
+                },
+                "team": {
+                    "team_uid": "2a6a4f30-7833-4e8f-a627-6d09bb6fe0c9",
+                    "team_name": "Alpha Team",
+                    "team_color": null,
+                    "is_active": true,
+                    "is_deleted": false
+                },
+                "acceptance_status": "ACCEPTED"
+            },
+            {
+                "user": {
+                    "user_uid": "79a58116-f6e5-48a8-9b79-76643a5e9302",
+                    "first_name": "Richard",
+                    "last_name": "Mathew",
+                    "email": "richard@abc.com",
+                    "external_login_id": null,
+                    "home_phone_number": null,
+                    "designation": "Admin",
+                    "emp_code": "V004",
+                    "prefix": null,
+                    "work_phone_number": null,
+                    "mobile_phone_number": null,
+                    "profile_picture": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/assets/profile_picture.jpg",
+                    "hourly_labor_charge": 40,
+                    "is_active": true,
+                    "is_deleted": false,
+                    "created_at": "2021-12-13T13:36:34.000Z",
+                    "updated_at": "2022-12-22T06:20:03.000Z",
+                    "role": {
+                        "role_id": 1,
+                        "role_uid": "504e4eac-ff7d-11e7-8be5-0ed5f89f718b",
+                        "role_name": "Admin",
+                        "role_key": "ADMIN",
+                        "created_at": "2018-01-22T00:00:00.000Z",
+                        "updated_at": "2018-01-22T00:00:00.000Z"
+                    }
+                },
+                "team": {
+                    "team_uid": "2a6a4f30-7833-4e8f-a627-6d09bb6fe0c9",
+                    "team_name": "Alpha Team",
+                    "team_color": null,
+                    "is_active": true,
+                    "is_deleted": false
+                },
+                "acceptance_status": "ACCEPTED"
+            }
+        ],
+        "job_title": "Monthly AC Maintenance",
+        "job_description": "",
+        "work_order_number": 154,
+        "job_category": {
+            "category_uid": "ed6fcee0-64d6-11ed-8b9d-adf95e911123",
+            "category_name": "AC Repair",
+            "estimated_duration": {
+                "days": 3,
+                "hours": 0,
+                "minutes": 0
+            },
+            "is_deleted": false
+        },
+        "job_priority": "MEDIUM",
+        "job_type": "NEW",
+        "job_tags": [],
+        "scheduled_start_time": "2023-06-23T13:30:00.000Z",
+        "scheduled_end_time": "2023-06-23T14:30:00.000Z",
+        "customer_address": {
+            "city": "Los Angeles ",
+            "state": "California ",
+            "street": "Flat No.2",
+            "country": "United States",
+            "zip_code": "45123",
+            "geo_cordinates": [
+                34.01813148009306,
+                -118.34035559770976
+            ],
+            "_id": "643531271aaf5d84cc571dc8"
+        },
+        "customer_billing_address": {
+            "city": "Los Angeles",
+            "street": "Washington D.C., DC, USA",
+            "_id": "643531271aaf5d84cc571dc9"
+        },
+        "custom_fields": [
+            {
+                "label": "TASK number",
+                "value": "202203",
+                "type": "SINGLE_LINE",
+                "hide_to_fe": false,
+                "hide_field": false,
+                "read_only": false,
+                "_id": "63e0a8064f065b05beb3054d"
+            },
+            {
+                "label": "Task Type",
+                "value": "",
+                "type": "SINGLE_LINE",
+                "hide_to_fe": false,
+                "hide_field": false,
+                "read_only": false,
+                "_id": "63e0a8064f065b05beb3054e"
+            },
+            {
+                "label": "Checkbox",
+                "value": "",
+                "type": "MULTI_ITEM",
+                "hide_to_fe": false,
+                "hide_field": false,
+                "read_only": false,
+                "_id": "63e0a8064f065b05beb3054f"
+            },
+            {
+                "label": "Date of Entry",
+                "value": "2022-12-15",
+                "type": "DATE",
+                "hide_to_fe": false,
+                "hide_field": false,
+                "read_only": false,
+                "_id": "63e0a8064f065b05beb30550"
+            },
+            {
+                "label": "Revisit Details",
+                "value": "Yes, few pending things are to be done. ",
+                "type": "SINGLE_ITEM",
+                "hide_to_fe": false,
+                "hide_field": false,
+                "read_only": false,
+                "_id": "63e0a8064f065b05beb30551"
+            },
+            {
+                "label": "Pending Items",
+                "value": "AC Outdoor pending",
+                "type": "SINGLE_LINE",
+                "hide_to_fe": false,
+                "hide_field": false,
+                "read_only": false,
+                "_id": "63e0a8064f065b05beb30552"
+            }
+        ],
+        "products": [
+            {
+                "line_item_uid": "fd4d8e20-df41-11ed-8f56-1119e748d64c",
+                "product_ref_id": {
+                    "product_no": 1,
+                    "product_type": "PARTS",
+                    "brand": "Nikavi",
+                    "specification": "Luxury Comfort Soft Padding, Shaped To Feel Great On Your Hands Protects Finish And Value Keep Your Car Looking New",
+                    "product_category": {
+                        "category_name": "Car parts",
+                        "category_uid": "02b66a20-95e5-11ea-b767-d7f25049cba0"
+                    },
+                    "product_uid": "56430170-95e6-11ea-b767-d7f25049cba0",
+                    "updated_at": "2020-05-27T09:23:14.298Z",
+                    "created_at": "2020-05-14T13:25:11.048Z",
+                    "is_deleted": false,
+                    "is_available": true,
+                    "purchase_price": 599,
+                    "price": 599,
+                    "currency": "",
+                    "quantity": 1,
+                    "track_quantity": true,
+                    "location_availability": [
+                        {
+                            "location": {
+                                "location_name": "Location #1",
+                                "location_uid": "32d94290-95e5-11ea-b767-d7f25049cba0",
+                                "is_deleted": false
+                            },
+                            "quantity": 1,
+                            "_id": "5ebd46b7e7ff7567bfdca8c3",
+                            "created_at": "2020-05-14T13:25:11.049Z",
+                            "serial_nos": [],
+                            "min_quantity": 1
+                        }
+                    ],
+                    "meta_data": [],
+                    "product_description": "",
+                    "product_id": "2020"
+                },
+                "product_id": "2020",
+                "product_uid": "56430170-95e6-11ea-b767-d7f25049cba0",
+                "product_category": "02b66a20-95e5-11ea-b767-d7f25049cba0",
+                "product_name": "Nikavi Steering Wheel Cover",
+                "brand": "Nikavi",
+                "specification": "Luxury Comfort Soft Padding, Shaped To Feel Great On Your Hands Protects Finish And Value Keep Your Car Looking New",
+                "quantity": 2,
+                "price": 599,
+                "product_type": "PARTS",
+                "meta_data": [],
+                "serial_nos": [],
+                "location": "5ebd44cee7ff7567bfdca896",
+                "location_uid": "32d94290-95e5-11ea-b767-d7f25049cba0",
+                "location_name": "Location #1",
+                "group_uid": "6778d7b0-ac1b-11ec-a586-5dbefdaac930",
+                "group": {
+                    "product_group_uid": "6778d7b0-ac1b-11ec-a586-5dbefdaac930",
+                    "product_group_name": "Add-ons"
+                },
+                "discount": 0,
+                "discount_type": "FIXED",
+                "total": 1198,
+                "_id": "6440d73bbedbf09081452b05",
+                "product": {
+                    "product_no": 1,
+                    "product_type": "PARTS",
+                    "brand": "Nikavi",
+                    "specification": "Luxury Comfort Soft Padding, Shaped To Feel Great On Your Hands Protects Finish And Value Keep Your Car Looking New",
+                    "product_uid": "56430170-95e6-11ea-b767-d7f25049cba0",
+                    "is_deleted": false,
+                    "is_available": true,
+                    "purchase_price": 599,
+                    "price": 599,
+                    "currency": "",
+                    "quantity": 1,
+                    "track_quantity": true,
+                    "location_availability": [
+                        {
+                            "location": {
+                                "location_name": "Location #1",
+                                "location_uid": "32d94290-95e5-11ea-b767-d7f25049cba0",
+                                "is_deleted": false
+                            },
+                            "quantity": 1,
+                            "_id": "5ebd46b7e7ff7567bfdca8c3",
+                            "created_at": "2020-05-14T13:25:11.049Z",
+                            "serial_nos": [],
+                            "min_quantity": 1
+                        }
+                    ],
+                    "meta_data": [],
+                    "product_description": "",
+                    "product_id": "2020"
+                }
+            }
+        ],
+        "assets": [
+            {
+                "asset": {
+                    "asset_uid": "12711100-c7c4-11ec-b8e8-27186042fffc",
+                    "asset_code": "AC001",
+                    "asset_name": "Air Conditioner",
+                    "asset_category": {
+                        "category_uid": "a1dba1c0-b95f-11ec-bac7-fd79ef5a24f1",
+                        "category_name": "HVAC",
+                        "is_deleted": false
+                    },
+                    "asset_inspection_form": {
+                        "asset_form_uid": "62688aa0-c6c8-11ec-b72b-cb3701240c6b",
+                        "asset_form_name": "Site Inspection",
+                        "asset_form_description": "To inspect site for Centralized Air Conditioning",
+                        "asset_category": "6253c8edbf5c71ad2cdfab48",
+                        "asset_form_fields": [
+                            {
+                                "label": "Total Carpet Area",
+                                "description": "Carpet Area in sq. ft",
+                                "placeholder": "In Sq. ft",
+                                "is_dependent": false,
+                                "dependent_on": "",
+                                "dependent_options": [],
+                                "type": "SINGLE_LINE",
+                                "hide_to_fe": false,
+                                "field_options": [],
+                                "is_required": true,
+                                "original_template": {
+                                    "id": 1,
+                                    "component": "textInput",
+                                    "editable": true,
+                                    "index": 0,
+                                    "label": "Total Carpet Area",
+                                    "description": "Carpet Area in sq. ft",
+                                    "placeholder": "In Sq. ft",
+                                    "options": [],
+                                    "required": true,
+                                    "validation": "[number]",
+                                    "hide_to_fe": false,
+                                    "is_dependent": false,
+                                    "dependent_on": "",
+                                    "dependent_options": [],
+                                    "hide_field": false,
+                                    "read_only": false
+                                },
+                                "_id": "626a4820524d49303124d183"
+                            },
+                            {
+                                "label": "Number of closed rooms",
+                                "description": "",
+                                "placeholder": "placeholder",
+                                "is_dependent": false,
+                                "dependent_on": "",
+                                "dependent_options": [],
+                                "type": "SINGLE_ITEM",
+                                "hide_to_fe": false,
+                                "field_options": [
+                                    "1-5",
+                                    "5-10",
+                                    "10-15",
+                                    "15-20",
+                                    ">20"
+                                ],
+                                "is_required": true,
+                                "original_template": {
+                                    "id": 2,
+                                    "component": "select",
+                                    "editable": true,
+                                    "index": 1,
+                                    "label": "Number of closed rooms",
+                                    "description": "",
+                                    "placeholder": "placeholder",
+                                    "options": [
+                                        "1-5",
+                                        "5-10",
+                                        "10-15",
+                                        "15-20",
+                                        ">20"
+                                    ],
+                                    "required": true,
+                                    "validation": "/.*/",
+                                    "hide_to_fe": false,
+                                    "is_dependent": false,
+                                    "dependent_on": "",
+                                    "dependent_options": [],
+                                    "hide_field": false,
+                                    "read_only": false
+                                },
+                                "_id": "626a4820524d49303124d184"
+                            },
+                            {
+                                "label": "Inspection Date",
+                                "description": "",
+                                "placeholder": "",
+                                "is_dependent": false,
+                                "dependent_on": "",
+                                "dependent_options": [],
+                                "type": "DATE",
+                                "hide_to_fe": false,
+                                "field_options": [],
+                                "is_required": true,
+                                "original_template": {
+                                    "id": 3,
+                                    "component": "dateInput",
+                                    "editable": true,
+                                    "index": 2,
+                                    "label": "Inspection Date",
+                                    "description": "",
+                                    "placeholder": "",
+                                    "options": [],
+                                    "required": true,
+                                    "validation": "/.*/",
+                                    "hide_to_fe": false,
+                                    "is_dependent": false,
+                                    "dependent_on": "",
+                                    "dependent_options": [],
+                                    "hide_field": false,
+                                    "read_only": false
+                                },
+                                "_id": "626a4820524d49303124d185"
+                            },
+                            {
+                                "label": "Include pictures of the site",
+                                "description": "Select multiple pictures",
+                                "placeholder": "",
+                                "is_dependent": false,
+                                "dependent_on": "",
+                                "dependent_options": [],
+                                "type": "MULTI_IMAGE",
+                                "hide_to_fe": false,
+                                "field_options": [],
+                                "is_required": true,
+                                "original_template": {
+                                    "id": 5,
+                                    "component": "multi_image",
+                                    "editable": true,
+                                    "index": 3,
+                                    "label": "Include pictures of the site",
+                                    "description": "Select multiple pictures",
+                                    "placeholder": "",
+                                    "options": [],
+                                    "required": true,
+                                    "validation": "/.*/",
+                                    "hide_to_fe": false,
+                                    "is_dependent": false,
+                                    "dependent_on": "",
+                                    "dependent_options": [],
+                                    "hide_field": false,
+                                    "read_only": false
+                                },
+                                "_id": "626a4820524d49303124d186"
+                            },
+                            {
+                                "label": "Customer's Signature",
+                                "description": "",
+                                "placeholder": "",
+                                "is_dependent": false,
+                                "dependent_on": "",
+                                "dependent_options": [],
+                                "type": "SIGNATURE",
+                                "hide_to_fe": false,
+                                "field_options": [],
+                                "is_required": true,
+                                "original_template": {
+                                    "id": 4,
+                                    "component": "signature",
+                                    "editable": true,
+                                    "index": 4,
+                                    "label": "Customer's Signature",
+                                    "description": "",
+                                    "placeholder": "",
+                                    "options": [],
+                                    "required": true,
+                                    "validation": "/.*/",
+                                    "hide_to_fe": false,
+                                    "is_dependent": false,
+                                    "dependent_on": "",
+                                    "dependent_options": [],
+                                    "hide_field": false,
+                                    "read_only": false
+                                },
+                                "_id": "626a4820524d49303124d187"
+                            }
+                        ],
+                        "is_active": true,
+                        "is_deleted": false,
+                        "created_at": "2022-04-28T07:54:08.849Z",
+                        "updated_at": "2022-04-28T07:54:08.853Z",
+                        "__v": 0
+                    },
+                    "asset_serial_number": [],
+                    "asset_quantity": 1,
+                    "purchase_date": null,
+                    "warranty_expiry_date": null,
+                    "placed_in_service": null,
+                    "custom_fields": [],
+                    "is_deleted": false,
+                    "is_active": true,
+                    "created_at": "2022-04-29T13:55:47.869Z",
+                    "updated_at": "2022-05-16T13:02:24.870Z"
+                },
+                "remarks": "",
+                "asset_inspection_form_submission_uid": null
+            }
+        ],
+        "recurring_job": {
+            "recurring_job_uid": "a003a370-81ff-11ed-894a-85286026f7e7",
+            "duration": {
+                "value": 6,
+                "type": "MONTHS"
+            },
+            "repeat_frequency": "MONTHLY",
+            "repeat_every": 1,
+            "repeat_on": {
+                "byweekday": [
+                    {
+                        "weekday": 4,
+                        "n": 3
+                    },
+                    {
+                        "weekday": 4,
+                        "n": 4
+                    },
+                    {
+                        "weekday": 4,
+                        "n": -1
+                    }
+                ],
+                "bymonth": [],
+                "bymonthday": []
+            },
+            "rrule": "FREQ=MONTHLY;INTERVAL=1;BYDAY=+3FR,+4FR,-1FR;DTSTART=20230101T180000;UNTIL=20230701T190000",
+            "job_start": "2023-01-02T11:30:00.000Z",
+            "job_end": "2023-02-16T14:30:00.000Z",
+            "job_count": 22,
+            "created_by": 2009,
+            "is_deleted": false,
+            "created_at": "2022-12-22T13:50:41.961Z",
+            "updated_at": "2023-04-11T12:42:06.129Z"
+        },
+        "is_recurrence": true,
+        "hide_to_fe": false,
+        "skills": [],
+        "created_by": {
+            "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+            "first_name": "John",
+            "last_name": "Mc Keever",
+            "email": "admin@zuper.co",
+            "external_login_id": null,
+            "home_phone_number": "123456789",
+            "designation": "Admin",
+            "emp_code": "0001",
+            "prefix": null,
+            "work_phone_number": "123456789",
+            "mobile_phone_number": null,
+            "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+            "hourly_labor_charge": 40,
+            "is_active": true,
+            "is_deleted": false,
+            "created_at": "2020-05-07T06:19:34.000Z",
+            "updated_at": "2022-12-19T06:10:59.000Z",
+            "role": {
+                "role_id": 1,
+                "role_uid": "504e4eac-ff7d-11e7-8be5-0ed5f89f718b",
+                "role_name": "Admin",
+                "role_key": "ADMIN",
+                "created_at": "2018-01-22T00:00:00.000Z",
+                "updated_at": "2018-01-22T00:00:00.000Z"
+            }
+        },
+        "is_deleted": false,
+        "child_jobs": [],
+        "job_status": [
+            {
+                "status_uid": "efd226c5-b966-434b-aa64-fcf69b05cfb1",
+                "status_name": "Completed",
+                "status_type": "COMPLETED",
+                "status_color": "#27ae60",
+                "customer_signature": "",
+                "checklist": [],
+                "done_by": {
+                    "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+                    "first_name": "John",
+                    "last_name": "Mc Keever",
+                    "email": "admin@zuper.co",
+                    "external_login_id": null,
+                    "home_phone_number": "123456789",
+                    "designation": "Admin",
+                    "emp_code": "0001",
+                    "prefix": null,
+                    "work_phone_number": "123456789",
+                    "mobile_phone_number": null,
+                    "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+                    "hourly_labor_charge": 40,
+                    "is_active": true,
+                    "is_deleted": false,
+                    "created_at": "2020-05-07T06:19:34.000Z",
+                    "updated_at": "2022-12-19T06:10:59.000Z",
+                    "role": {
+                        "role_id": 1,
+                        "role_uid": "504e4eac-ff7d-11e7-8be5-0ed5f89f718b",
+                        "role_name": "Admin",
+                        "role_key": "ADMIN",
+                        "created_at": "2018-01-22T00:00:00.000Z",
+                        "updated_at": "2018-01-22T00:00:00.000Z"
+                    }
+                },
+                "is_offline": false,
+                "_id": "642bedac6faa37359ea4b87b",
+                "created_at": "2023-04-04T09:28:12.424Z",
+                "synced_at": "2023-04-04T09:28:12.424Z"
+            }
+        ],
+        "created_at": "2023-03-06T06:32:07.329Z",
+        "updated_at": "2023-04-20T06:11:20.761Z",
+        "invoice": {
+            "is_invoiced": false
+        },
+        "parent_job": {
+            "job_uid": "9dc93750-bbe8-11ed-8838-f713cc48f6bc",
+            "prefix": "A12345",
+            "job_title": "Monthly AC Maintenance",
+            "work_order_number": 153,
+            "job_category": {
+                "category_uid": "5825b300-7f6a-11ed-afd9-b91d9207a4f4",
+                "category_name": "AC Cleaning",
+                "estimated_duration": {
+                    "days": 3,
+                    "hours": 0,
+                    "minutes": 0
+                },
+                "is_deleted": false
+            },
+            "job_priority": "MEDIUM",
+            "job_type": "NEW",
+            "job_tags": [],
+            "scheduled_start_time": "2023-06-16T13:30:00.000Z",
+            "scheduled_end_time": "2023-06-16T14:30:00.000Z",
+            "is_deleted": false,
+            "created_at": "2023-03-06T06:32:07.241Z"
+        },
+        "actual_duration": 0,
+        "actual_end_time": "2023-04-04T09:28:12.424Z",
+        "actual_start_time": null,
+        "current_job_status": {
+            "status_uid": "efd226c5-b966-434b-aa64-fcf69b05cfb1",
+            "status_name": "Completed",
+            "status_type": "COMPLETED",
+            "status_color": "#27ae60"
+        },
+        "service_contract": {
+            "prefix": "Q123",
+            "contract_uid": "892310f0-cf76-11ec-b4e3-63108bd4ff7a",
+            "contract_name": "AC Maintenance",
+            "description": "<p class=\"MsoNormal\">AC maintenance automated invoice creation is enabled<o:p></o:p></p>",
+            "start_date": "2022-05-14T18:30:00.000Z",
+            "end_date": "2025-05-15T18:29:00.000Z",
+            "approval_status": "AWAIT_APPROVAL",
+            "custom_fields": [
+                {
+                    "label": "Type of Customer",
+                    "value": "New",
+                    "type": "SINGLE_ITEM",
+                    "hide_to_fe": false,
+                    "hide_field": false,
+                    "read_only": false,
+                    "_id": "6278d84796415950aa727fc9"
+                },
+                {
+                    "label": "Contract Renewal date",
+                    "value": "",
+                    "type": "DATE",
+                    "hide_to_fe": false,
+                    "hide_field": false,
+                    "read_only": false,
+                    "_id": "6278d84796415950aa727fca"
+                }
+            ],
+            "created_by": {
+                "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+                "first_name": "John",
+                "last_name": "Mc Keever",
+                "email": "admin@zuper.co",
+                "external_login_id": null,
+                "home_phone_number": "123456789",
+                "designation": "Admin",
+                "emp_code": "0001",
+                "prefix": null,
+                "work_phone_number": "123456789",
+                "mobile_phone_number": null,
+                "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+                "hourly_labor_charge": 40,
+                "is_active": true,
+                "is_deleted": false,
+                "created_at": "2020-05-07T06:19:34.000Z",
+                "updated_at": "2022-12-19T06:10:59.000Z",
+                "role": {
+                    "role_id": 1,
+                    "role_uid": "504e4eac-ff7d-11e7-8be5-0ed5f89f718b",
+                    "role_name": "Admin",
+                    "role_key": "ADMIN",
+                    "created_at": "2018-01-22T00:00:00.000Z",
+                    "updated_at": "2018-01-22T00:00:00.000Z"
+                }
+            },
+            "is_active": true,
+            "is_expired": false,
+            "is_deleted": false,
+            "created_at": "2022-05-09T09:00:55.597Z",
+            "updated_at": "2022-05-09T09:00:55.607Z",
+            "contract_number": 11
+        },
+        "checklist": []
+    },
+    "ESTIMATE": {
+        "estimate_uid": "baf550c0-8033-11ed-afd9-b91d9207a4f4",
+        "estimate_date": "2023-04-06T00:00:00.000Z",
+        "expiry_date": "2022-12-23T18:29:00.000Z",
+        "customer": {
+            "customer_first_name": "Charles",
+            "customer_uid": "15d12420-992c-11ea-8a16-59ce7fb29dfb",
+            "updated_at": "2023-04-11T12:42:06.104Z",
+            "created_at": "2020-05-18T17:22:01.186Z",
+            "is_deleted": false,
+            "is_active": true,
+            "custom_fields": [
+                {
+                    "label": "Text Input",
+                    "value": "",
+                    "type": "SINGLE_LINE",
+                    "hide_to_fe": false,
+                    "_id": "63e103e94711a2d51b1e25b6"
+                },
+                {
+                    "label": "Car Model No",
+                    "value": "",
+                    "type": "SINGLE_LINE",
+                    "hide_to_fe": false,
+                    "_id": "63e103e94711a2d51b1e25b7"
+                },
+                {
+                    "label": "Date Input",
+                    "value": "",
+                    "type": "DATE",
+                    "hide_to_fe": false,
+                    "group_name": "Group 1",
+                    "group_uid": "c6d5cc50-e65d-11ec-9fe8-9fccad37ffca",
+                    "_id": "63e103e94711a2d51b1e25b8"
+                }
+            ],
+            "customer_billing_address": {
+                "city": "Los Angeles",
+                "street": "Washington D.C., DC, USA",
+                "first_name": "Charles",
+                "email": "Charles@Zuper.co",
+                "_id": "643531271aaf5d84cc571dc9"
+            },
+            "customer_address": {
+                "city": "Los Angeles ",
+                "state": "California ",
+                "street": "Flat No.2",
+                "country": "United States",
+                "zip_code": "45123",
+                "geo_cordinates": [
+                    34.01813148009306,
+                    -118.34035559770976
+                ],
+                "first_name": "Charles",
+                "email": "Charles@Zuper.co",
+                "_id": "643531271aaf5d84cc571dc8"
+            },
+            "customer_all_addresses": [
+                {
+                    "first_name": "Charles",
+                    "email": "Charles@Zuper.co",
+                    "city": "Los Angeles ",
+                    "state": "California ",
+                    "street": "Flat No.2",
+                    "country": "United States",
+                    "zip_code": "45123",
+                    "geo_cordinates": [
+                        34.01813148009306,
+                        -118.34035559770976
+                    ],
+                    "is_primary": true,
+                    "_id": "628346904f8dc038be18f05f"
+                },
+                {
+                    "first_name": "Charles",
+                    "email": "Charles@Zuper.co",
+                    "city": "Los Angeles",
+                    "street": "Washington D.C., DC, USA",
+                    "is_primary": false,
+                    "_id": "628346904f8dc038be18f060"
+                },
+                {
+                    "first_name": "John",
+                    "last_name": "Dohn",
+                    "email": "John@zuper.co",
+                    "city": "Franklin Township ",
+                    "state": "New Jersey ",
+                    "street": "New Jersey 27 ",
+                    "country": "United States",
+                    "geo_cordinates": [
+                        40.4862376,
+                        -74.4703437
+                    ],
+                    "is_primary": true,
+                    "_id": "63e103e94711a2d51b1e25b9"
+                },
+                {
+                    "first_name": "John",
+                    "last_name": "Dohn",
+                    "email": "John@zuper.co",
+                    "city": "Franklin Township ",
+                    "state": "New Jersey ",
+                    "street": "New Jersey 27 ",
+                    "country": "United States",
+                    "geo_cordinates": [
+                        40.4862376,
+                        -74.4703437
+                    ],
+                    "is_primary": false,
+                    "_id": "63e103e94711a2d51b1e25ba"
+                }
+            ],
+            "customer_email": "Charles@Zuper.co",
+            "customer_company_name": "",
+            "customer_last_name": "",
+            "has_card_on_file": false,
+            "customer_category": null,
+            "customer_contact_no": null,
+            "customer_organization": {
+                "organization_uid": "bda7fb50-8585-11ec-8ac1-abcf5d932598",
+                "organization_name": "Sparkle Cleaning",
+                "organization_description": "<p>Provide <b>Cleaning Services</b> to customers.</p>",
+                "organization_email": "sparkle@sample.com",
+                "organization_address": {
+                    "city": "Washington ",
+                    "state": "District of Columbia ",
+                    "street": "Washington D.C., DC, USA",
+                    "country": "United States",
+                    "landmark": "",
+                    "geo_cordinates": [
+                        38.9071923,
+                        -77.0368707
+                    ]
+                },
+                "custom_fields": [],
+                "is_active": false,
+                "is_deleted": false,
+                "created_at": "2022-02-04T06:43:20.070Z",
+                "updated_at": "2023-03-23T11:39:23.706Z",
+                "organization_billing_address": {
+                    "city": "Mississauga",
+                    "street": "7676 Kimbel Street"
+                },
+                "organization_logo": null
+            }
+        },
+        "organization": {
+            "organization_uid": "bda7fb50-8585-11ec-8ac1-abcf5d932598",
+            "organization_name": "Sparkle Cleaning",
+            "organization_description": "<p>Provide <b>Cleaning Services</b> to customers.</p>",
+            "organization_email": "sparkle@sample.com",
+            "no_of_customers": 11,
+            "organization_address": {
+                "city": "Washington ",
+                "state": "District of Columbia ",
+                "street": "Washington D.C., DC, USA",
+                "country": "United States",
+                "landmark": "",
+                "geo_cordinates": [
+                    38.9071923,
+                    -77.0368707
+                ]
+            },
+            "custom_fields": [],
+            "is_active": false,
+            "is_deleted": false,
+            "created_at": "2022-02-04T06:43:20.070Z",
+            "updated_at": "2023-03-23T11:39:23.706Z",
+            "organization_billing_address": {
+                "city": "Mississauga",
+                "street": "7676 Kimbel Street"
+            },
+            "organization_logo": null
+        },
+        "property": {
+            "property_uid": "df720a60-857a-11ec-84e1-bd1b634f5ba3",
+            "property_name": "Sparkle HQ",
+            "no_of_jobs": 6,
+            "property_address": {
+                "city": "New York ",
+                "state": "New York ",
+                "street": "22-12 24th Street",
+                "country": "United States",
+                "landmark": "",
+                "zip_code": "11105",
+                "geo_cordinates": [
+                    40.779105,
+                    -73.915691
+                ],
+                "_id": "639ec2dad2acdd37ee200acc"
+            },
+            "is_active": true,
+            "is_deleted": false
+        },
+        "customer_billing_address": {
+            "city": "Los Angeles",
+            "street": "Washington D.C., DC, USA",
+            "first_name": "Charles",
+            "email": "Charles@Zuper.co",
+            "_id": "643531271aaf5d84cc571dc9"
+        },
+        "customer_service_address": {
+            "city": "Los Angeles ",
+            "state": "California ",
+            "street": "Flat No.2",
+            "country": "United States",
+            "zip_code": "45123",
+            "geo_cordinates": [
+                34.01813148009306,
+                -118.34035559770976
+            ],
+            "first_name": "Charles",
+            "email": "Charles@Zuper.co",
+            "_id": "643531271aaf5d84cc571dc8"
+        },
+        "job": {
+            "is_deleted": false,
+            "job_category": {
+                "category_name": "Painting",
+                "category_uid": "f280eab0-93da-11ea-9919-fd0e38a35202",
+                "is_deleted": false,
+                "estimated_duration": {
+                    "hours": 0,
+                    "minutes": 0
+                }
+            },
+            "scheduled_start_time": "2021-11-17T17:00:00.000Z",
+            "scheduled_end_time": "2021-11-17T19:00:00.000Z",
+            "job_uid": "e691d660-47b6-11ec-b365-b7d3861fb89b",
+            "job_title": "Painting Job",
+            "job_description": "",
+            "job_priority": "HIGH",
+            "prefix": "A12345",
+            "customer_address": {
+                "city": "Los Angeles ",
+                "state": "California ",
+                "street": "Flat No.2",
+                "country": "United States",
+                "zip_code": "45123",
+                "geo_cordinates": [
+                    34.01813148009306,
+                    -118.34035559770976
+                ],
+                "_id": "643531271aaf5d84cc571dc8"
+            },
+            "customer_billing_address": {
+                "city": "Los Angeles",
+                "street": "Washington D.C., DC, USA",
+                "_id": "643531271aaf5d84cc571dc9"
+            },
+            "custom_fields": [
+                {
+                    "hide_to_fe": false,
+                    "_id": "619517350c9a050828788af9",
+                    "label": "TASK number",
+                    "value": "1098",
+                    "type": "SINGLE_LINE"
+                },
+                {
+                    "hide_to_fe": false,
+                    "_id": "619517350c9a050828788afa",
+                    "label": "Task Type",
+                    "value": "",
+                    "type": "SINGLE_LINE"
+                },
+                {
+                    "hide_to_fe": false,
+                    "_id": "619517350c9a050828788afb",
+                    "label": "Date of Entry",
+                    "value": "2021-11-17",
+                    "type": "DATE"
+                }
+            ],
+            "job_status": [
+                {
+                    "_id": "61951c2f0c9a050828788b12",
+                    "status_uid": "82cc56e0-aee1-4197-ad7b-b920bbe09356",
+                    "status_name": "Completed",
+                    "status_type": "COMPLETED",
+                    "done_by": 2009,
+                    "checklist": [
+                        {
+                            "hide_to_fe": false,
+                            "_id": "61951c2f0c9a050828788b13",
+                            "question": "Areas covered",
+                            "answer": "Bedroom 1 ",
+                            "type": "MULTI_ITEM"
+                        }
+                    ],
+                    "created_at": "2021-11-17T15:13:51.570Z"
+                }
+            ],
+            "created_at": "2021-11-17T14:59:01.958Z",
+            "updated_at": "2023-04-11T10:06:31.452Z",
+            "work_order_number": 2,
+            "current_job_status": {
+                "status_uid": "82cc56e0-aee1-4197-ad7b-b920bbe09356",
+                "status_name": "Completed",
+                "status_type": "COMPLETED",
+                "status_color": null
+            }
+        },
+        "line_items": [
+            {
+                "line_item_uid": "bb0e7e10-8033-11ed-afd9-b91d9207a4f4",
+                "product_ref_id": {
+                    "product_type": "PARTS",
+                    "product_category": {
+                        "category_name": "Car parts",
+                        "category_uid": "02b66a20-95e5-11ea-b767-d7f25049cba0"
+                    },
+                    "product_uid": "56430170-95e6-11ea-b767-d7f25049cba0",
+                    "updated_at": "2020-05-27T09:23:14.298Z",
+                    "created_at": "2020-05-14T13:25:11.048Z",
+                    "is_deleted": false,
+                    "meta_data": []
+                },
+                "location": "5ebd44cee7ff7567bfdca896",
+                "product_id": "2020",
+                "product_uid": "56430170-95e6-11ea-b767-d7f25049cba0",
+                "location_uid": "32d94290-95e5-11ea-b767-d7f25049cba0",
+                "location_name": "Location #1",
+                "image": "",
+                "name": "Nikavi Steering Wheel Cover",
+                "brand": "Nikavi",
+                "specification": "Luxury Comfort Soft Padding, Shaped To Feel Great On Your Hands Protects Finish And Value Keep Your Car Looking New",
+                "quantity": 1,
+                "unit_price": 599,
+                "discount": 0,
+                "purchase_price": 599,
+                "serial_nos": [],
+                "discount_type": "FIXED",
+                "total": 599,
+                "approval_status": "APPROVED",
+                "_id": "63a15d1fae1d6a5b81f68913"
+            }
+        ],
+        "sub_total": 599,
+        "total": 736.77,
+        "total_discount": 0,
+        "template": {
+            "type": "ESTIMATE",
+            "template_name": "Quote",
+            "template_description": "Quote Template",
+            "template": "",
+            "template_uid": "df4cc390-95e9-11ea-b767-d7f25049cba0",
+            "is_deleted": false
+        },
+        "tags": [],
+        "tax": [
+            {
+                "tax_id": {
+                    "tax_name": "CGST",
+                    "tax_rate": 9,
+                    "tax_uid": "442ce420-95ea-11ea-b767-d7f25049cba0",
+                    "is_active": true,
+                    "tax_applicable_to": []
+                },
+                "tax_uid": "442ce420-95ea-11ea-b767-d7f25049cba0",
+                "tax_name": "CGST",
+                "tax_percent": 9,
+                "tax_amount": 53.91,
+                "_id": "63a15d1fae1d6a5b81f68914"
+            },
+            {
+                "tax_id": {
+                    "tax_name": "IGST",
+                    "tax_rate": 9,
+                    "tax_uid": "4b19a840-95ea-11ea-b767-d7f25049cba0",
+                    "is_active": true,
+                    "tax_applicable_to": []
+                },
+                "tax_uid": "4b19a840-95ea-11ea-b767-d7f25049cba0",
+                "tax_name": "IGST",
+                "tax_percent": 9,
+                "tax_amount": 53.91,
+                "_id": "63a15d1fae1d6a5b81f68915"
+            },
+            {
+                "tax_id": {
+                    "tax_uid": "609365d0-7f95-11ec-b443-c1808a957e94",
+                    "tax_name": "Federal Tax",
+                    "tax_applicable_to": [],
+                    "tax_rate": 5,
+                    "is_local_tax": true,
+                    "applicable_to": [
+                        {
+                            "state": "Washington",
+                            "city": "Seattle",
+                            "_id": "61f2d448b95e17548ab1b414"
+                        },
+                        {
+                            "state": "Washington",
+                            "city": "Auburn",
+                            "_id": "61f2d448b95e17548ab1b415"
+                        }
+                    ],
+                    "is_active": true
+                },
+                "tax_uid": "609365d0-7f95-11ec-b443-c1808a957e94",
+                "tax_name": "Federal Tax",
+                "tax_percent": 5,
+                "tax_amount": 29.95,
+                "_id": "63a15d1fae1d6a5b81f68916"
+            }
+        ],
+        "estimate_status": "APPROVED",
+        "custom_fields": [
+            {
+                "label": "Text Input",
+                "value": "",
+                "type": "SINGLE_LINE",
+                "hide_to_fe": false,
+                "hide_field": false,
+                "read_only": false,
+                "_id": "63a15d1fae1d6a5b81f68917"
+            }
+        ],
+        "status_history": [
+            {
+                "status_name": "DRAFT",
+                "done_by": {
+                    "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+                    "first_name": "John",
+                    "last_name": "Mc Keever",
+                    "email": "admin@zuper.co",
+                    "external_login_id": null,
+                    "home_phone_number": "123456789",
+                    "designation": "Admin",
+                    "emp_code": "0001",
+                    "prefix": null,
+                    "work_phone_number": "123456789",
+                    "mobile_phone_number": null,
+                    "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+                    "hourly_labor_charge": 40,
+                    "is_active": true,
+                    "is_deleted": false,
+                    "created_at": "2020-05-07T06:19:34.000Z",
+                    "updated_at": "2022-12-19T06:10:59.000Z"
+                },
+                "done_by_type": "EMPLOYEE",
+                "_id": "63a15d1fae1d6a5b81f68918",
+                "created_at": "2022-12-20T06:58:39.054Z"
+            },
+            {
+                "status_name": "AWAIT_RESPONSE",
+                "customer_signature": "",
+                "remarks": "",
+                "done_by": {
+                    "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+                    "first_name": "John",
+                    "last_name": "Mc Keever",
+                    "email": "admin@zuper.co",
+                    "external_login_id": null,
+                    "home_phone_number": "123456789",
+                    "designation": "Admin",
+                    "emp_code": "0001",
+                    "prefix": null,
+                    "work_phone_number": "123456789",
+                    "mobile_phone_number": null,
+                    "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+                    "hourly_labor_charge": 40,
+                    "is_active": true,
+                    "is_deleted": false,
+                    "created_at": "2020-05-07T06:19:34.000Z",
+                    "updated_at": "2022-12-19T06:10:59.000Z"
+                },
+                "done_by_type": "EMPLOYEE",
+                "_id": "63a15e18ae1d6a5b81f68b58",
+                "created_at": "2022-12-20T07:02:48.504Z"
+            },
+            {
+                "status_name": "APPROVED",
+                "customer_signature": "",
+                "remarks": "",
+                "done_by": {
+                    "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+                    "first_name": "John",
+                    "last_name": "Mc Keever",
+                    "email": "admin@zuper.co",
+                    "external_login_id": null,
+                    "home_phone_number": "123456789",
+                    "designation": "Admin",
+                    "emp_code": "0001",
+                    "prefix": null,
+                    "work_phone_number": "123456789",
+                    "mobile_phone_number": null,
+                    "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+                    "hourly_labor_charge": 40,
+                    "is_active": true,
+                    "is_deleted": false,
+                    "created_at": "2020-05-07T06:19:34.000Z",
+                    "updated_at": "2022-12-19T06:10:59.000Z"
+                },
+                "done_by_type": "EMPLOYEE",
+                "_id": "63a15e3fae1d6a5b81f68bad",
+                "created_at": "2022-12-20T07:03:27.295Z"
+            }
+        ],
+        "deposit": {
+            "total": 73.68,
+            "collected": 73.68,
+            "status": "COLLECTED",
+            "collected_at": "2022-12-20T00:00:00.000Z",
+            "payment_mode": {
+                "payment_mode_name": "Cash",
+                "payment_mode_type": "OFFLINE",
+                "payment_mode_uid": "6368f450-95ea-11ea-b767-d7f25049cba0"
+            },
+            "payment_transaction": {
+                "payment_transaction_uid": "7d9561b0-8034-11ed-afd9-b91d9207a4f4",
+                "currency": "USD",
+                "amount": 73.68,
+                "status": "SUCCESS"
+            },
+            "remarks": "",
+            "reference_no": "",
+            "done_by": {
+                "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+                "first_name": "John",
+                "last_name": "Mc Keever",
+                "email": "admin@zuper.co",
+                "external_login_id": null,
+                "home_phone_number": "123456789",
+                "designation": "Admin",
+                "emp_code": "0001",
+                "prefix": null,
+                "work_phone_number": "123456789",
+                "mobile_phone_number": null,
+                "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+                "hourly_labor_charge": 40,
+                "is_active": true,
+                "is_deleted": false,
+                "created_at": "2020-05-07T06:19:34.000Z",
+                "updated_at": "2022-12-19T06:10:59.000Z"
+            },
+            "is_void": false
+        },
+        "is_expired": false,
+        "is_converted": true,
+        "is_deleted": false,
+        "is_active": true,
+        "created_by": {
+            "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+            "first_name": "John",
+            "last_name": "Mc Keever",
+            "email": "admin@zuper.co",
+            "external_login_id": null,
+            "home_phone_number": "123456789",
+            "designation": "Admin",
+            "emp_code": "0001",
+            "prefix": null,
+            "work_phone_number": "123456789",
+            "mobile_phone_number": null,
+            "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+            "hourly_labor_charge": 40,
+            "is_active": true,
+            "is_deleted": false,
+            "created_at": "2020-05-07T06:19:34.000Z",
+            "updated_at": "2022-12-19T06:10:59.000Z"
+        },
+        "public_url": "https://staging.zuperpro.com/api/customer_portal/estimates?company_uid=0e8aa048-f652-48dc-8d7a-00621402d18c&estimate_uid=baf550c0-8033-11ed-afd9-b91d9207a4f4&to=John@zuper.co",
+        "deposit_payment_url": "https://staging.zuperpro.com/api/customer_portal/estimates/collect_deposit?company_uid=0e8aa048-f652-48dc-8d7a-00621402d18c&estimate_uid=baf550c0-8033-11ed-afd9-b91d9207a4f4",
+        "financing": {
+            "is_enabled": true
+        },
+        "attachments": [],
+        "notes": [
+            {
+                "note_uid": "bb81b240-8033-11ed-afd9-b91d9207a4f4",
+                "content": "Kindly accept the quote..23rd dec",
+                "is_private": false,
+                "created_by": {
+                    "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+                    "first_name": "John",
+                    "last_name": "Mc Keever",
+                    "email": "admin@zuper.co",
+                    "external_login_id": null,
+                    "home_phone_number": "123456789",
+                    "designation": "Admin",
+                    "emp_code": "0001",
+                    "prefix": null,
+                    "work_phone_number": "123456789",
+                    "mobile_phone_number": null,
+                    "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+                    "hourly_labor_charge": 40,
+                    "is_active": true,
+                    "is_deleted": false,
+                    "created_at": "2020-05-07T06:19:34.000Z",
+                    "updated_at": "2022-12-19T06:10:59.000Z"
+                },
+                "_id": "63a15d1fae1d6a5b81f68923",
+                "created_at": "2022-12-20T06:58:39.589Z"
+            }
+        ],
+        "created_at": "2022-12-20T06:58:39.055Z",
+        "updated_at": "2023-04-11T10:06:31.534Z",
+        "estimate_no": 27,
+        "remarks": "Remarks"
+    },
+    "INVOICE": {
+        "invoice_uid": "fd5fa930-ac41-11ed-8913-a320cf323fa4",
+        "invoice_date": "2023-02-13T18:30:00.000Z",
+        "due_date": "2023-03-16T18:29:00.000Z",
+        "customer": {
+            "customer_first_name": "Charles",
+            "customer_uid": "15d12420-992c-11ea-8a16-59ce7fb29dfb",
+            "updated_at": "2023-04-11T12:42:06.104Z",
+            "created_at": "2020-05-18T17:22:01.186Z",
+            "is_deleted": false,
+            "is_active": true,
+            "accounts": {
+                "ltv": 11296.78,
+                "receivables": 707.94,
+                "credits": 248.63,
+                "_id": "643531271aaf5d84cc571dce"
+            },
+            "custom_fields": [
+                {
+                    "label": "Text Input",
+                    "value": "",
+                    "type": "SINGLE_LINE",
+                    "hide_to_fe": false,
+                    "_id": "63e103e94711a2d51b1e25b6"
+                },
+                {
+                    "label": "Car Model No",
+                    "value": "",
+                    "type": "SINGLE_LINE",
+                    "hide_to_fe": false,
+                    "_id": "63e103e94711a2d51b1e25b7"
+                },
+                {
+                    "label": "Date Input",
+                    "value": "",
+                    "type": "DATE",
+                    "hide_to_fe": false,
+                    "group_name": "Group 1",
+                    "group_uid": "c6d5cc50-e65d-11ec-9fe8-9fccad37ffca",
+                    "_id": "63e103e94711a2d51b1e25b8"
+                }
+            ],
+            "customer_billing_address": {
+                "city": "Los Angeles",
+                "street": "Washington D.C., DC, USA",
+                "first_name": "Charles",
+                "email": "Charles@Zuper.co",
+                "_id": "643531271aaf5d84cc571dc9"
+            },
+            "customer_address": {
+                "city": "Los Angeles ",
+                "state": "California ",
+                "street": "Flat No.2",
+                "country": "United States",
+                "zip_code": "45123",
+                "geo_cordinates": [
+                    34.01813148009306,
+                    -118.34035559770976
+                ],
+                "first_name": "Charles",
+                "email": "Charles@Zuper.co",
+                "_id": "643531271aaf5d84cc571dc8"
+            },
+            "customer_all_addresses": [
+                {
+                    "first_name": "Charles",
+                    "email": "Charles@Zuper.co",
+                    "city": "Los Angeles ",
+                    "state": "California ",
+                    "street": "Flat No.2",
+                    "country": "United States",
+                    "zip_code": "45123",
+                    "geo_cordinates": [
+                        34.01813148009306,
+                        -118.34035559770976
+                    ],
+                    "is_primary": true,
+                    "_id": "628346904f8dc038be18f05f"
+                },
+                {
+                    "first_name": "Charles",
+                    "email": "Charles@Zuper.co",
+                    "city": "Los Angeles",
+                    "street": "Washington D.C., DC, USA",
+                    "is_primary": false,
+                    "_id": "628346904f8dc038be18f060"
+                },
+                {
+                    "first_name": "John",
+                    "last_name": "Dohn",
+                    "email": "John@zuper.co",
+                    "city": "Franklin Township ",
+                    "state": "New Jersey ",
+                    "street": "New Jersey 27 ",
+                    "country": "United States",
+                    "geo_cordinates": [
+                        40.4862376,
+                        -74.4703437
+                    ],
+                    "is_primary": true,
+                    "_id": "63e103e94711a2d51b1e25b9"
+                },
+                {
+                    "first_name": "John",
+                    "last_name": "Dohn",
+                    "email": "John@zuper.co",
+                    "city": "Franklin Township ",
+                    "state": "New Jersey ",
+                    "street": "New Jersey 27 ",
+                    "country": "United States",
+                    "geo_cordinates": [
+                        40.4862376,
+                        -74.4703437
+                    ],
+                    "is_primary": false,
+                    "_id": "63e103e94711a2d51b1e25ba"
+                }
+            ],
+            "customer_email": "Charles@Zuper.co",
+            "customer_company_name": "",
+            "customer_last_name": "",
+            "has_card_on_file": false,
+            "customer_category": null,
+            "customer_contact_no": null,
+            "customer_organization": {
+                "organization_uid": "bda7fb50-8585-11ec-8ac1-abcf5d932598",
+                "organization_name": "Sparkle Cleaning",
+                "organization_description": "<p>Provide <b>Cleaning Services</b> to customers.</p>",
+                "organization_email": "sparkle@sample.com",
+                "organization_address": {
+                    "city": "Washington ",
+                    "state": "District of Columbia ",
+                    "street": "Washington D.C., DC, USA",
+                    "country": "United States",
+                    "landmark": "",
+                    "geo_cordinates": [
+                        38.9071923,
+                        -77.0368707
+                    ]
+                },
+                "custom_fields": [],
+                "is_active": false,
+                "is_deleted": false,
+                "created_at": "2022-02-04T06:43:20.070Z",
+                "updated_at": "2023-03-23T11:39:23.706Z",
+                "organization_billing_address": {
+                    "city": "Mississauga",
+                    "street": "7676 Kimbel Street"
+                },
+                "organization_logo": null
+            }
+        },
+        "organization": {
+            "organization_uid": "bda7fb50-8585-11ec-8ac1-abcf5d932598",
+            "organization_name": "Sparkle Cleaning",
+            "organization_description": "<p>Provide <b>Cleaning Services</b> to customers.</p>",
+            "organization_email": "sparkle@sample.com",
+            "no_of_customers": 11,
+            "organization_address": {
+                "city": "Washington ",
+                "state": "District of Columbia ",
+                "street": "Washington D.C., DC, USA",
+                "country": "United States",
+                "landmark": "",
+                "geo_cordinates": [
+                    38.9071923,
+                    -77.0368707
+                ]
+            },
+            "custom_fields": [],
+            "is_active": false,
+            "is_deleted": false,
+            "created_at": "2022-02-04T06:43:20.070Z",
+            "updated_at": "2023-03-23T11:39:23.706Z",
+            "organization_billing_address": {
+                "city": "Mississauga",
+                "street": "7676 Kimbel Street"
+            },
+            "organization_logo": null
+        },
+        "property": null,
+        "estimate": {
+            "estimate_uid": "3c9e00e0-e00c-11ec-b893-4120e3d65de7",
+            "company_id": "87",
+            "estimate_date": "2023-04-06T00:00:00.000Z",
+            "expiry_date": "2022-06-08T18:29:00.000Z",
+            "organization": {
+                "organization_uid": "bda7fb50-8585-11ec-8ac1-abcf5d932598",
+                "organization_name": "Sparkle Cleaning",
+                "organization_description": "<p>Provide <b>Cleaning Services</b> to customers.</p>",
+                "organization_email": "sparkle@sample.com",
+                "organization_address": {
+                    "city": "Washington ",
+                    "state": "District of Columbia ",
+                    "street": "Washington D.C., DC, USA",
+                    "country": "United States",
+                    "landmark": "",
+                    "geo_cordinates": [
+                        38.9071923,
+                        -77.0368707
+                    ]
+                },
+                "custom_fields": [],
+                "is_active": false,
+                "is_deleted": false,
+                "created_at": "2022-02-04T06:43:20.070Z",
+                "updated_at": "2023-03-23T11:39:23.706Z",
+                "organization_logo": null
+            },
+            "customer_billing_address": {
+                "city": "NZ",
+                "state": "Wellington",
+                "street": "17 Pattullos Road Express Estate",
+                "zip_code": "33411",
+                "first_name": "Charles",
+                "email": "Charles@Zuper.co"
+            },
+            "customer_service_address": {
+                "city": "Los Angeles ",
+                "state": "California ",
+                "street": "Flat No.2",
+                "country": "United States",
+                "zip_code": "45123",
+                "geo_cordinates": [
+                    34.01813148009306,
+                    -118.34035559770976
+                ],
+                "first_name": "Charles",
+                "email": "Charles@Zuper.co"
+            },
+            "job": {
+                "job_uid": "a643dbf0-e714-11ec-b62b-13d173b91081",
+                "prefix": "A12345",
+                "job_title": "Job",
+                "job_priority": "HIGH",
+                "due_date": "2022-06-30T18:29:00.000Z",
+                "current_job_status": {
+                    "status_uid": "87b4233c-67a0-4742-b96a-13127fa87466",
+                    "status_name": "New Task",
+                    "status_type": "NEW"
+                },
+                "customer_address": {
+                    "city": "Los Angeles ",
+                    "state": "California ",
+                    "street": "Flat No.2",
+                    "country": "United States",
+                    "zip_code": "45123",
+                    "geo_cordinates": [
+                        34.01813148009306,
+                        -118.34035559770976
+                    ],
+                    "first_name": "Charles",
+                    "email": "Charles@Zuper.co"
+                },
+                "customer_billing_address": {
+                    "city": "NZ",
+                    "state": "Wellington",
+                    "street": "17 Pattullos Road Express Estate",
+                    "zip_code": "33411",
+                    "first_name": "Charles",
+                    "email": "Charles@Zuper.co"
+                },
+                "custom_fields": [
+                    {
+                        "label": "TASK number",
+                        "value": "123",
+                        "type": "SINGLE_LINE",
+                        "hide_to_fe": false,
+                        "hide_field": false,
+                        "read_only": false,
+                        "_id": "62a077f94d86729ac74fb63b"
+                    },
+                    {
+                        "label": "Task Type",
+                        "value": "12",
+                        "type": "SINGLE_LINE",
+                        "hide_to_fe": false,
+                        "hide_field": false,
+                        "read_only": false,
+                        "_id": "62a077f94d86729ac74fb63c"
+                    },
+                    {
+                        "label": "Date of Entry",
+                        "value": "2022-06-16",
+                        "type": "DATE",
+                        "hide_to_fe": false,
+                        "hide_field": false,
+                        "read_only": false,
+                        "_id": "62a077f94d86729ac74fb63d"
+                    },
+                    {
+                        "label": "File Input",
+                        "value": "",
+                        "type": "FILE",
+                        "hide_to_fe": false,
+                        "hide_field": false,
+                        "read_only": false,
+                        "_id": "62a077f94d86729ac74fb63e"
+                    }
+                ],
+                "is_deleted": false,
+                "created_at": "2022-06-08T10:20:41.694Z",
+                "updated_at": "2023-02-14T06:50:11.649Z",
+                "work_order_number": 64,
+                "scheduled_end_time": "2022-07-06T20:30:00.000Z",
+                "scheduled_start_time": "2022-05-31T19:30:00.000Z"
+            },
+            "line_items": [
+                {
+                    "product_id": "2021",
+                    "product_uid": "08c391c0-95e7-11ea-b767-d7f25049cba0",
+                    "group_uid": "6778d7b0-ac1b-11ec-a586-5dbefdaac930",
+                    "group_name": "Add-ons",
+                    "image": "",
+                    "name": "BlackSuit Leather Power Handle Knob",
+                    "brand": "JMD GLOBAL",
+                    "specification": "The pillars of the body are high, and the fingers do not pinch at the time of running even if they are wrapped and held by hand It is convenient for beginner woman driver",
+                    "uom": "",
+                    "quantity": 1,
+                    "unit_price": 749,
+                    "discount": 0,
+                    "serial_nos": [],
+                    "discount_type": "FIXED",
+                    "total": 749,
+                    "approval_status": "APPROVED",
+                    "_id": "6294ab6293faa93c2899b49a"
+                },
+                {
+                    "product_id": "2020",
+                    "product_uid": "56430170-95e6-11ea-b767-d7f25049cba0",
+                    "group_uid": "6778d7b0-ac1b-11ec-a586-5dbefdaac930",
+                    "group_name": "Add-ons",
+                    "image": "",
+                    "name": "Nikavi Steering Wheel Cover",
+                    "brand": "Nikavi",
+                    "specification": "Luxury Comfort Soft Padding, Shaped To Feel Great On Your Hands Protects Finish And Value Keep Your Car Looking New",
+                    "uom": "",
+                    "quantity": 1,
+                    "unit_price": 599,
+                    "discount": 0,
+                    "serial_nos": [],
+                    "discount_type": "FIXED",
+                    "total": 599,
+                    "approval_status": "APPROVED",
+                    "_id": "6294ab6293faa93c2899b49b"
+                },
+                {
+                    "product_id": "1010",
+                    "product_uid": "97b5a400-9c03-11ea-8e78-73262daf61c7",
+                    "group_uid": "6778d7b0-ac1b-11ec-a586-5dbefdaac930",
+                    "group_name": "Add-ons",
+                    "image": "",
+                    "name": "Service Charge",
+                    "brand": "",
+                    "specification": "",
+                    "uom": "",
+                    "quantity": 1,
+                    "unit_price": 1000,
+                    "discount": 0,
+                    "serial_nos": [],
+                    "discount_type": "FIXED",
+                    "total": 1000,
+                    "approval_status": "APPROVED",
+                    "_id": "6294ab6293faa93c2899b49c"
+                }
+            ],
+            "sub_total": 2348,
+            "total": 2888.04,
+            "total_discount": 0,
+            "tags": [],
+            "estimate_status": "APPROVED",
+            "deposit": {
+                "total": 288.8,
+                "status": "NOT_COLLECTED",
+                "created_at": "2022-05-30T11:32:50.325Z",
+                "is_void": false
+            },
+            "is_expired": false,
+            "is_converted": true,
+            "is_deleted": false,
+            "is_active": true,
+            "created_by": {
+                "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+                "first_name": "John",
+                "last_name": "Mc Keever",
+                "email": "admin@zuper.co",
+                "external_login_id": null,
+                "home_phone_number": "123456789",
+                "designation": "Admin",
+                "emp_code": "0001",
+                "prefix": null,
+                "work_phone_number": "123456789",
+                "mobile_phone_number": null,
+                "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+                "hourly_labor_charge": 40,
+                "is_active": true,
+                "is_deleted": false,
+                "created_at": "2020-05-07T06:19:34.000Z",
+                "updated_at": "2022-12-19T06:10:59.000Z"
+            },
+            "created_at": "2022-05-30T11:32:50.336Z",
+            "updated_at": "2023-04-06T05:41:29.921Z",
+            "estimate_no": 24,
+            "__v": 1,
+            "financing": {
+                "is_enabled": true
+            },
+            "remarks": "Remarks"
+        },
+        "customer_billing_address": {
+            "city": "NZ",
+            "state": "Wellington",
+            "street": "17 Pattullos Road Express Estate",
+            "zip_code": "33411",
+            "first_name": "Charles",
+            "email": "Charles@Zuper.co"
+        },
+        "customer_service_address": {
+            "city": "Los Angeles ",
+            "state": "California ",
+            "street": "Flat No.2",
+            "country": "United States",
+            "zip_code": "45123",
+            "geo_cordinates": [
+                34.01813148009306,
+                -118.34035559770976
+            ],
+            "first_name": "Charles",
+            "email": "Charles@Zuper.co"
+        },
+        "job": {
+            "job_uid": "a643dbf0-e714-11ec-b62b-13d173b91081",
+            "prefix": "A12345",
+            "job_title": "Job",
+            "job_category": {
+                "category_name": "Furnishing",
+                "category_uid": "edc81d90-93da-11ea-9919-fd0e38a35202",
+                "is_deleted": false,
+                "estimated_duration": {
+                    "hours": 0,
+                    "minutes": 0
+                }
+            },
+            "job_priority": "HIGH",
+            "due_date": "2022-06-30T18:29:00.000Z",
+            "current_job_status": {
+                "status_uid": "87b4233c-67a0-4742-b96a-13127fa87466",
+                "status_name": "New Task",
+                "status_type": "NEW"
+            },
+            "job_status": [
+                {
+                    "status_uid": "87b4233c-67a0-4742-b96a-13127fa87466",
+                    "status_name": "New Task",
+                    "status_type": "NEW",
+                    "done_by": 2009,
+                    "_id": "62a077f94d86729ac74fb63a",
+                    "checklist": [],
+                    "created_at": "2022-06-08T10:20:41.689Z"
+                }
+            ],
+            "customer_address": {
+                "city": "Los Angeles ",
+                "state": "California ",
+                "street": "Flat No.2",
+                "country": "United States",
+                "zip_code": "45123",
+                "geo_cordinates": [
+                    34.01813148009306,
+                    -118.34035559770976
+                ],
+                "first_name": "Charles",
+                "email": "Charles@Zuper.co"
+            },
+            "customer_billing_address": {
+                "city": "NZ",
+                "state": "Wellington",
+                "street": "17 Pattullos Road Express Estate",
+                "zip_code": "33411",
+                "first_name": "Charles",
+                "email": "Charles@Zuper.co"
+            },
+            "custom_fields": [
+                {
+                    "label": "TASK number",
+                    "value": "123",
+                    "type": "SINGLE_LINE",
+                    "hide_to_fe": false,
+                    "hide_field": false,
+                    "read_only": false,
+                    "_id": "62a077f94d86729ac74fb63b"
+                },
+                {
+                    "label": "Task Type",
+                    "value": "12",
+                    "type": "SINGLE_LINE",
+                    "hide_to_fe": false,
+                    "hide_field": false,
+                    "read_only": false,
+                    "_id": "62a077f94d86729ac74fb63c"
+                },
+                {
+                    "label": "Date of Entry",
+                    "value": "2022-06-16",
+                    "type": "DATE",
+                    "hide_to_fe": false,
+                    "hide_field": false,
+                    "read_only": false,
+                    "_id": "62a077f94d86729ac74fb63d"
+                },
+                {
+                    "label": "File Input",
+                    "value": "",
+                    "type": "FILE",
+                    "hide_to_fe": false,
+                    "hide_field": false,
+                    "read_only": false,
+                    "_id": "62a077f94d86729ac74fb63e"
+                }
+            ],
+            "is_deleted": false,
+            "created_at": "2022-06-08T10:20:41.694Z",
+            "updated_at": "2023-02-14T06:50:11.649Z",
+            "work_order_number": 64,
+            "scheduled_end_time": "2022-07-06T20:30:00.000Z",
+            "scheduled_start_time": "2022-05-31T19:30:00.000Z"
+        },
+        "line_items": [
+            {
+                "line_item_uid": "fd71f8b0-ac41-11ed-8913-a320cf323fa4",
+                "product_ref_id": {
+                    "product_type": "PARTS",
+                    "product_category": {
+                        "category_name": "Car parts",
+                        "category_uid": "02b66a20-95e5-11ea-b767-d7f25049cba0"
+                    },
+                    "product_uid": "08c391c0-95e7-11ea-b767-d7f25049cba0",
+                    "updated_at": "2023-04-12T07:17:55.562Z",
+                    "created_at": "2020-05-14T13:30:10.524Z",
+                    "is_deleted": false,
+                    "meta_data": [
+                        {
+                            "label": "Text Input",
+                            "value": "",
+                            "type": "SINGLE_LINE",
+                            "hide_to_fe": false,
+                            "_id": "642bcce26faa37359ea3feed"
+                        },
+                        {
+                            "label": "Oil level checked?",
+                            "value": "Yes",
+                            "type": "SINGLE_ITEM",
+                            "hide_to_fe": false,
+                            "_id": "642bcce26faa37359ea3feee"
+                        }
+                    ],
+                    "has_custom_tax": false
+                },
+                "product_id": "2021",
+                "product_uid": "08c391c0-95e7-11ea-b767-d7f25049cba0",
+                "group_uid": "6778d7b0-ac1b-11ec-a586-5dbefdaac930",
+                "group_name": "Add-ons",
+                "group": {
+                    "product_group_uid": "6778d7b0-ac1b-11ec-a586-5dbefdaac930",
+                    "product_group_name": "Add-ons",
+                    "is_deleted": false
+                },
+                "image": "",
+                "name": "BlackSuit Leather Power Handle Knob",
+                "brand": "JMD GLOBAL",
+                "specification": "The pillars of the body are high, and the fingers do not pinch at the time of running even if they are wrapped and held by hand It is convenient for beginner woman driver",
+                "quantity": 1,
+                "unit_price": 749,
+                "discount": 0,
+                "serial_nos": [],
+                "discount_type": "FIXED",
+                "total": 749,
+                "approval_status": "APPROVED",
+                "_id": "6294ab6293faa93c2899b49a"
+            },
+            {
+                "line_item_uid": "fd766580-ac41-11ed-8913-a320cf323fa4",
+                "product_ref_id": {
+                    "product_type": "PARTS",
+                    "product_category": {
+                        "category_name": "Car parts",
+                        "category_uid": "02b66a20-95e5-11ea-b767-d7f25049cba0"
+                    },
+                    "product_uid": "56430170-95e6-11ea-b767-d7f25049cba0",
+                    "updated_at": "2020-05-27T09:23:14.298Z",
+                    "created_at": "2020-05-14T13:25:11.048Z",
+                    "is_deleted": false,
+                    "meta_data": []
+                },
+                "product_id": "2020",
+                "product_uid": "56430170-95e6-11ea-b767-d7f25049cba0",
+                "group_uid": "6778d7b0-ac1b-11ec-a586-5dbefdaac930",
+                "group_name": "Add-ons",
+                "group": {
+                    "product_group_uid": "6778d7b0-ac1b-11ec-a586-5dbefdaac930",
+                    "product_group_name": "Add-ons",
+                    "is_deleted": false
+                },
+                "image": "",
+                "name": "Nikavi Steering Wheel Cover",
+                "brand": "Nikavi",
+                "specification": "Luxury Comfort Soft Padding, Shaped To Feel Great On Your Hands Protects Finish And Value Keep Your Car Looking New",
+                "quantity": 1,
+                "unit_price": 599,
+                "discount": 0,
+                "serial_nos": [],
+                "discount_type": "FIXED",
+                "total": 599,
+                "approval_status": "APPROVED",
+                "_id": "6294ab6293faa93c2899b49b"
+            },
+            {
+                "line_item_uid": "fd7a0f00-ac41-11ed-8913-a320cf323fa4",
+                "product_ref_id": {
+                    "product_type": "SERVICE",
+                    "product_category": {
+                        "category_name": "Car parts",
+                        "category_uid": "02b66a20-95e5-11ea-b767-d7f25049cba0"
+                    },
+                    "product_uid": "97b5a400-9c03-11ea-8e78-73262daf61c7",
+                    "updated_at": "2022-05-25T07:07:43.132Z",
+                    "created_at": "2020-05-22T08:09:43.232Z",
+                    "is_deleted": false,
+                    "meta_data": [],
+                    "has_custom_tax": false
+                },
+                "product_id": "1010",
+                "product_uid": "97b5a400-9c03-11ea-8e78-73262daf61c7",
+                "group_uid": "6778d7b0-ac1b-11ec-a586-5dbefdaac930",
+                "group_name": "Add-ons",
+                "group": {
+                    "product_group_uid": "6778d7b0-ac1b-11ec-a586-5dbefdaac930",
+                    "product_group_name": "Add-ons",
+                    "is_deleted": false
+                },
+                "image": "",
+                "name": "Service Charge",
+                "uom": "",
+                "quantity": 1,
+                "unit_price": 1000,
+                "discount": 0,
+                "serial_nos": [],
+                "discount_type": "FIXED",
+                "total": 1000,
+                "approval_status": "APPROVED",
+                "_id": "6294ab6293faa93c2899b49c"
+            }
+        ],
+        "sub_total": 2348,
+        "total": 2888.04,
+        "total_discount": 0,
+        "template": {
+            "type": "INVOICE",
+            "template_name": "Residential Invoice",
+            "template_description": "invoice template",
+            "template": "",
+            "template_uid": "1e6db900-95e8-11ea-b767-d7f25049cba0",
+            "is_deleted": false,
+            "render_engine": "PHANTOM",
+            "template_options": {
+                "format": "A4",
+                "orientation": "portrait",
+                "border": {
+                    "top": "10",
+                    "right": "10",
+                    "bottom": "10",
+                    "left": "10"
+                }
+            }
+        },
+        "tags": [],
+        "tax": [
+            {
+                "tax_id": {
+                    "tax_name": "CGST",
+                    "tax_rate": 9,
+                    "tax_uid": "442ce420-95ea-11ea-b767-d7f25049cba0",
+                    "is_active": true,
+                    "tax_applicable_to": []
+                },
+                "tax_uid": "442ce420-95ea-11ea-b767-d7f25049cba0",
+                "tax_name": "CGST",
+                "tax_percent": 9,
+                "tax_amount": 211.32,
+                "_id": "63eb46e6e58682a19f116878"
+            },
+            {
+                "tax_id": {
+                    "tax_name": "IGST",
+                    "tax_rate": 9,
+                    "tax_uid": "4b19a840-95ea-11ea-b767-d7f25049cba0",
+                    "is_active": true,
+                    "tax_applicable_to": []
+                },
+                "tax_uid": "4b19a840-95ea-11ea-b767-d7f25049cba0",
+                "tax_name": "IGST",
+                "tax_percent": 9,
+                "tax_amount": 211.32,
+                "_id": "63eb46e6e58682a19f116879"
+            },
+            {
+                "tax_id": {
+                    "tax_uid": "609365d0-7f95-11ec-b443-c1808a957e94",
+                    "tax_name": "Federal Tax",
+                    "tax_applicable_to": [],
+                    "tax_rate": 5,
+                    "is_local_tax": true,
+                    "applicable_to": [
+                        {
+                            "state": "Washington",
+                            "city": "Seattle",
+                            "_id": "61f2d448b95e17548ab1b414"
+                        },
+                        {
+                            "state": "Washington",
+                            "city": "Auburn",
+                            "_id": "61f2d448b95e17548ab1b415"
+                        }
+                    ],
+                    "is_active": true
+                },
+                "tax_uid": "609365d0-7f95-11ec-b443-c1808a957e94",
+                "tax_name": "Federal Tax",
+                "tax_percent": 5,
+                "tax_amount": 117.4,
+                "_id": "63eb46e6e58682a19f11687a"
+            }
+        ],
+        "invoice_status": "PAID",
+        "custom_fields": [],
+        "status_history": [
+            {
+                "status_name": "DRAFT",
+                "done_by": {
+                    "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+                    "first_name": "John",
+                    "last_name": "Mc Keever",
+                    "email": "admin@zuper.co",
+                    "external_login_id": null,
+                    "home_phone_number": "123456789",
+                    "designation": "Admin",
+                    "emp_code": "0001",
+                    "prefix": null,
+                    "work_phone_number": "123456789",
+                    "mobile_phone_number": null,
+                    "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+                    "hourly_labor_charge": 40,
+                    "is_active": true,
+                    "is_deleted": false,
+                    "created_at": "2020-05-07T06:19:34.000Z",
+                    "updated_at": "2022-12-19T06:10:59.000Z"
+                },
+                "done_by_type": "EMPLOYEE",
+                "_id": "63eb46e6e58682a19f11687b",
+                "created_at": "2023-02-14T08:31:34.614Z"
+            },
+            {
+                "status_name": "AWAIT_PAYMENT",
+                "remarks": "",
+                "done_by": {
+                    "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+                    "first_name": "John",
+                    "last_name": "Mc Keever",
+                    "email": "admin@zuper.co",
+                    "external_login_id": null,
+                    "home_phone_number": "123456789",
+                    "designation": "Admin",
+                    "emp_code": "0001",
+                    "prefix": null,
+                    "work_phone_number": "123456789",
+                    "mobile_phone_number": null,
+                    "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+                    "hourly_labor_charge": 40,
+                    "is_active": true,
+                    "is_deleted": false,
+                    "created_at": "2020-05-07T06:19:34.000Z",
+                    "updated_at": "2022-12-19T06:10:59.000Z"
+                },
+                "done_by_type": "EMPLOYEE",
+                "_id": "63eb4704e58682a19f116913",
+                "created_at": "2023-02-14T08:32:04.900Z"
+            },
+            {
+                "status_name": "PAID",
+                "remarks": "collected as cash",
+                "done_by": {
+                    "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+                    "first_name": "John",
+                    "last_name": "Mc Keever",
+                    "email": "admin@zuper.co",
+                    "external_login_id": null,
+                    "home_phone_number": "123456789",
+                    "designation": "Admin",
+                    "emp_code": "0001",
+                    "prefix": null,
+                    "work_phone_number": "123456789",
+                    "mobile_phone_number": null,
+                    "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+                    "hourly_labor_charge": 40,
+                    "is_active": true,
+                    "is_deleted": false,
+                    "created_at": "2020-05-07T06:19:34.000Z",
+                    "updated_at": "2022-12-19T06:10:59.000Z"
+                },
+                "done_by_type": "EMPLOYEE",
+                "_id": "63eb472ce58682a19f1169d5",
+                "created_at": "2023-02-14T08:32:44.951Z"
+            }
+        ],
+        "payment_term": {
+            "payment_term_name": "One month term",
+            "no_of_days": 30,
+            "payment_term_uid": "978d3b50-95eb-11ea-b767-d7f25049cba0"
+        },
+        "amount_due": 0,
+        "is_paid": true,
+        "is_deleted": false,
+        "is_active": true,
+        "created_by": {
+            "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+            "first_name": "John",
+            "last_name": "Mc Keever",
+            "email": "admin@zuper.co",
+            "external_login_id": null,
+            "home_phone_number": "123456789",
+            "designation": "Admin",
+            "emp_code": "0001",
+            "prefix": null,
+            "work_phone_number": "123456789",
+            "mobile_phone_number": null,
+            "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+            "hourly_labor_charge": 40,
+            "is_active": true,
+            "is_deleted": false,
+            "created_at": "2020-05-07T06:19:34.000Z",
+            "updated_at": "2022-12-19T06:10:59.000Z"
+        },
+        "public_url": "https://staging.zuperpro.com/api/customer_portal/invoices?company_uid=0e8aa048-f652-48dc-8d7a-00621402d18c&invoice_uid=fd5fa930-ac41-11ed-8913-a320cf323fa4&to=Charles@Zuper.co",
+        "payment_url": "https://staging.zuperpro.com/api/customer_portal/invoices/pay?company_uid=0e8aa048-f652-48dc-8d7a-00621402d18c&invoice_uid=fd5fa930-ac41-11ed-8913-a320cf323fa4",
+        "financing": {
+            "is_enabled": true
+        },
+        "attachments": [],
+        "notes": [],
+        "payment_history": [
+            {
+                "amount": 2888.04,
+                "payment_mode": {
+                    "_id": "5ebd4d83e7ff7567bfdca8de",
+                    "payment_mode_name": "Cash",
+                    "payment_mode_type": "OFFLINE",
+                    "payment_mode_description": "Cash to be received",
+                    "payment_mode_uid": "6368f450-95ea-11ea-b767-d7f25049cba0"
+                },
+                "payment_transaction": {
+                    "payment_transaction_uid": "278378e0-ac42-11ed-8913-a320cf323fa4"
+                },
+                "remarks": "collected as cash",
+                "reference_no": "008",
+                "done_by": {
+                    "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+                    "first_name": "John",
+                    "last_name": "Mc Keever",
+                    "email": "admin@zuper.co",
+                    "external_login_id": null,
+                    "home_phone_number": "123456789",
+                    "designation": "Admin",
+                    "emp_code": "0001",
+                    "prefix": null,
+                    "work_phone_number": "123456789",
+                    "mobile_phone_number": null,
+                    "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+                    "hourly_labor_charge": 40,
+                    "is_active": true,
+                    "is_deleted": false,
+                    "created_at": "2020-05-07T06:19:34.000Z",
+                    "updated_at": "2022-12-19T06:10:59.000Z"
+                },
+                "is_void": false,
+                "payment_date": "2023-02-14T08:36:15.000Z",
+                "done_by_type": "EMPLOYEE",
+                "_id": "63eb472ce58682a19f1169d4",
+                "created_at": "2023-02-14T08:32:44.950Z"
+            }
+        ],
+        "created_at": "2023-02-14T08:31:34.615Z",
+        "updated_at": "2023-02-14T08:32:44.956Z",
+        "invoice_no": 20,
+        "amount_paid": 2888.04,
+        "payment_mode": {
+            "payment_mode_name": "Cash",
+            "payment_mode_type": "OFFLINE",
+            "payment_mode_description": "Cash to be received",
+            "payment_mode_uid": "6368f450-95ea-11ea-b767-d7f25049cba0"
+        }
+    },
+    "CUSTOMER" : {
+        "customer_first_name": "Charles",
+        "customer_uid": "15d12420-992c-11ea-8a16-59ce7fb29dfb",
+        "created_by": {
+            "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+            "first_name": "John",
+            "last_name": "Mc Keever",
+            "email": "admin@zuper.co",
+            "external_login_id": null,
+            "home_phone_number": "123456789",
+            "designation": "Admin",
+            "emp_code": "0001",
+            "prefix": null,
+            "work_phone_number": "123456789",
+            "mobile_phone_number": null,
+            "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+            "hourly_labor_charge": 40,
+            "is_active": true,
+            "is_deleted": false,
+            "created_at": "2020-05-07T06:19:34.000Z",
+            "updated_at": "2022-12-19T06:10:59.000Z"
+        },
+        "created_at": "2020-05-18T17:22:01.186Z",
+        "account_manager": null,
+        "is_active": true,
+        "visible_to_all": false,
+        "accounts": {
+            "ltv": 11296.78,
+            "receivables": 707.94,
+            "credits": 248.63,
+            "_id": "643531271aaf5d84cc571dce"
+        },
+        "customer_notifications": {
+            "email": false,
+            "sms": false,
+            "call": false,
+            "_id": "643531271aaf5d84cc571dcd"
+        },
+        "has_sla": false,
+        "custom_fields": [
+            {
+                "label": "Text Input",
+                "value": "",
+                "type": "SINGLE_LINE",
+                "hide_to_fe": false,
+                "_id": "63e103e94711a2d51b1e25b6"
+            },
+            {
+                "label": "Car Model No",
+                "value": "",
+                "type": "SINGLE_LINE",
+                "hide_to_fe": false,
+                "_id": "63e103e94711a2d51b1e25b7"
+            },
+            {
+                "label": "Date Input",
+                "value": "",
+                "type": "DATE",
+                "hide_to_fe": false,
+                "group_name": "Group 1",
+                "group_uid": "c6d5cc50-e65d-11ec-9fe8-9fccad37ffca",
+                "_id": "63e103e94711a2d51b1e25b8"
+            }
+        ],
+        "customer_billing_address": {
+            "city": "Los Angeles",
+            "street": "Washington D.C., DC, USA",
+            "first_name": "Charles",
+            "email": "Charles@Zuper.co",
+            "_id": "643531271aaf5d84cc571dc9"
+        },
+        "customer_address": {
+            "city": "Los Angeles ",
+            "state": "California ",
+            "street": "Flat No.2",
+            "country": "United States",
+            "zip_code": "45123",
+            "geo_cordinates": [
+                34.01813148009306,
+                -118.34035559770976
+            ],
+            "first_name": "Charles",
+            "email": "Charles@Zuper.co",
+            "_id": "643531271aaf5d84cc571dc8"
+        },
+        "customer_all_addresses": [
+            {
+                "first_name": "Charles",
+                "email": "Charles@Zuper.co",
+                "city": "Los Angeles ",
+                "state": "California ",
+                "street": "Flat No.2",
+                "country": "United States",
+                "zip_code": "45123",
+                "geo_cordinates": [
+                    34.01813148009306,
+                    -118.34035559770976
+                ],
+                "is_primary": true,
+                "_id": "628346904f8dc038be18f05f"
+            },
+            {
+                "first_name": "Charles",
+                "email": "Charles@Zuper.co",
+                "city": "Los Angeles",
+                "street": "Washington D.C., DC, USA",
+                "is_primary": false,
+                "_id": "628346904f8dc038be18f060"
+            },
+            {
+                "first_name": "John",
+                "last_name": "Dohn",
+                "email": "John@zuper.co",
+                "city": "Franklin Township ",
+                "state": "New Jersey ",
+                "street": "New Jersey 27 ",
+                "country": "United States",
+                "geo_cordinates": [
+                    40.4862376,
+                    -74.4703437
+                ],
+                "is_primary": true,
+                "_id": "63e103e94711a2d51b1e25b9"
+            },
+            {
+                "first_name": "John",
+                "last_name": "Dohn",
+                "email": "John@zuper.co",
+                "city": "Franklin Township ",
+                "state": "New Jersey ",
+                "street": "New Jersey 27 ",
+                "country": "United States",
+                "geo_cordinates": [
+                    40.4862376,
+                    -74.4703437
+                ],
+                "is_primary": false,
+                "_id": "63e103e94711a2d51b1e25ba"
+            }
+        ],
+        "customer_tags": [
+            "Premium Member"
+        ],
+        "customer_description": "",
+        "no_of_jobs": 69,
+        "customer_email": "Charles@Zuper.co",
+        "customer_company_name": "",
+        "customer_last_name": "",
+        "favorited_users": [],
+        "has_card_on_file": false,
+        "customer_category": null,
+        "customer_contact_no": null,
+        "customer_organization": {
+            "organization_uid": "bda7fb50-8585-11ec-8ac1-abcf5d932598",
+            "organization_name": "Sparkle Cleaning",
+            "organization_description": "<p>Provide <b>Cleaning Services</b> to customers.</p>",
+            "organization_email": "sparkle@sample.com",
+            "organization_address": {
+                "city": "Washington ",
+                "state": "District of Columbia ",
+                "street": "Washington D.C., DC, USA",
+                "country": "United States",
+                "landmark": "",
+                "geo_cordinates": [
+                    38.9071923,
+                    -77.0368707
+                ]
+            },
+            "custom_fields": [],
+            "is_active": false,
+            "is_deleted": false,
+            "created_at": "2022-02-04T06:43:20.070Z",
+            "updated_at": "2023-03-23T11:39:23.706Z",
+            "organization_billing_address": {
+                "city": "Mississauga",
+                "street": "7676 Kimbel Street"
+            },
+            "organization_logo": null
+        },
+        "auto_charge": {
+            "is_enabled": false
+        }
+    },
+    "REQUEST" : {
+        "request_uid": "03681900-a3a1-11ee-a40a-3f13070c804a",
+        "request_title": "Request For AC Cleaning",
+        "request_description": "<p>Request For AC Cleaning</p>",
+        "request_priority": "LOW",
+        "request_due_date": null,
+        "request_preferred_date1": {
+            "start_time": "2023-12-28T06:30:00.000Z",
+            "end_time": "2023-12-28T08:30:00.000Z"
+        },
+        "request_preferred_date2": {
+            "start_time": "2024-01-04T08:30:00.000Z",
+            "end_time": "2024-01-04T10:30:00.000Z"
+        },
+        "customer": {
+            "customer_uid": "d91bd7e0-6473-11ec-ac20-bb01e9a572a2",
+            "customer_first_name": "Charles",
+            "customer_last_name": "",
+            "customer_company_name": "",
+            "customer_email": "Charles@Zuper.co",
+            "customer_contact_no": null,
+            "customer_address": {
+                "city": "Washington ",
+                "state": "District of Columbia ",
+                "street": "Washington D.C., DC, USA",
+                "country": "United States",
+                "landmark": "",
+                "geo_cordinates": [
+                    38.9071923,
+                    -77.0368707
+                ]
+            },
+            "is_active": true,
+            "is_deleted": false
+        },
+        "organization": {
+            "organization_uid": "0d64ea00-c793-11ec-bad4-49ff3910afe4",
+            "organization_name": "Sparkle Cleaning",
+            "no_of_customers": 4,
+            "organization_address": {
+                "city": "Washington ",
+                "state": "District of Columbia ",
+                "street": "Washington D.C., DC, USA",
+                "country": "United States",
+                "landmark": "",
+                "geo_cordinates": [
+                    38.9071923,
+                    -77.0368707
+                ]
+            },
+            "is_deleted": false,
+            "organization_email": "sparkle@sample.com",
+            "organization_description": null,
+            "organization_logo": null
+        },
+        "property": {
+            "property_uid": "08401d90-fdaa-11ec-9992-9bac23698eb1",
+            "property_name": "Sparkle HQ",
+            "no_of_jobs": 2,
+            "property_address": {
+                "city": "Los Angeles ",
+                "state": "California ",
+                "street": "Flat No.2",
+                "country": "United States",
+                "zip_code": "45123",
+                "geo_cordinates": [
+                    34.01813148009306,
+                    -118.34035559770976
+                ]
+            },
+            "is_deleted": false
+        },
+        "asset": {
+            "asset_uid": "2a7ae3f0-f0bf-11ed-97ee-553e701f4678",
+            "asset_code": "AC001",
+            "asset_name": "Air Conditioner",
+            "asset_image": "",
+            "asset_category": {
+                "category_name": "HVAC",
+                "category_uid": "22b74240-09fe-11ea-b1f3-d505ea8dd454",
+                "is_deleted": false
+            },
+            "asset_status": "INSTALLED",
+            "asset_serial_number": "",
+            "is_deleted": false,
+            "is_active": true,
+            "custom_fields": [],
+            "created_at": "2023-05-12T12:18:56.194Z",
+            "updated_at": "2023-05-12T12:18:56.685Z"
+        },
+        "request_service": {
+            "service_uid": "299e6ac2-87a1-4b5e-a156-d00a93b4db7f",
+            "service_name": "AC cleaning",
+            "service_image": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/6c287db0-ff7c-11e7-b3a8-29b417a4f3fa/6c4aa440-7c6b-11ee-84ea-39864211c42b.jpg",
+            "service_description": "Service",
+            "estimated_duration": {
+                "days": 5,
+                "hours": 13,
+                "minutes": 20
+            },
+            "estimated_price": 5,
+            "is_active": true,
+            "is_deleted": false,
+            "created_by": "15580",
+            "created_at": "2023-11-03T09:01:14.083Z",
+            "updated_at": "2023-12-11T07:03:14.002Z"
+        },
+        "service_contract": {
+            "contract_uid": "b82bc040-b738-11ed-bf35-1d708e57cb5f",
+            "contract_name": "Standard",
+            "start_date": "2023-02-27T18:30:00.000Z",
+            "end_date": "2023-04-27T18:29:59.000Z",
+            "approval_status": "CUSTOMER_APPROVED",
+            "is_active": true,
+            "is_deleted": false,
+            "contract_number": 719
+        },
+        "service_address": {
+            "city": "Los Angeles ",
+            "state": "California ",
+            "street": "Flat No.2",
+            "country": "United States",
+            "zip_code": "45123",
+            "geo_cordinates": [
+                34.01813148009306,
+                -118.34035559770976
+            ]
+        },
+        "billing_address": {
+            "city": "Washington ",
+            "state": "District of Columbia ",
+            "street": "Washington D.C., DC, USA",
+            "country": "United States",
+            "landmark": "",
+            "geo_cordinates": [
+                38.9071923,
+                -77.0368707
+            ]
+        },
+        "request_source": null,
+        "request_status": {
+            "status_type": "OPEN",
+            "status_uid": "26d89664-72c0-4280-b9fb-e9f4b38f8143",
+            "status_name": "New Request",
+            "status_color": "#3498db"
+        },
+        "status_history": [
+            {
+                "status_uid": "26d89664-72c0-4280-b9fb-e9f4b38f8143",
+                "status_color": "#3498db",
+                "status_name": "New Request",
+                "status_type": "OPEN",
+                "remarks": "",
+                "done_by": {
+                    "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+                    "first_name": "John",
+                    "last_name": "Mc Keever",
+                    "email": "admin@zuper.co",
+                    "external_login_id": null,
+                    "home_phone_number": null,
+                    "designation": "Tech",
+                    "emp_code": "2030303",
+                    "prefix": null,
+                    "work_phone_number": null,
+                    "mobile_phone_number": null,
+                    "profile_picture": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/assets/profile_picture.jpg",
+                    "hourly_labor_charge": 120,
+                    "is_active": true,
+                    "is_deleted": false,
+                    "created_at": "2020-05-09T04:52:02.000Z",
+                    "updated_at": "2022-07-28T10:21:40.000Z",
+                    "role": {
+                        "role_uid": "504e4eac-ff7d-11e7-8be5-0ed5f89f718b",
+                        "role_name": "Admin",
+                        "role_key": "ADMIN"
+                    }
+                },
+                "_id": "658a4c03729f0b7d12d379b5",
+                "created_at": "2023-12-26T03:44:03.982Z"
+            }
+        ],
+        "attachments": [],
+        "custom_fields": [
+            {
+                "label": "Text Input",
+                "value": "123",
+                "type": "SINGLE_LINE",
+                "module_name": "PRODUCT",
+                "hide_to_fe": false,
+                "hide_field": false,
+                "read_only": false,
+                "group_name": "Request new group",
+                "group_uid": "a3be7540-7d39-11ee-8171-2bfb257e2710",
+                "_id": "658a4c03729f0b7d12d379b6"
+            }
+        ],
+        "assigned_to_team": [],
+        "assigned_to": [
+            {
+                "user": {
+                    "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+                    "first_name": "John",
+                    "last_name": "Mc Keever",
+                    "email": "admin@zuper.co",
+                    "external_login_id": null,
+                    "home_phone_number": "123456789",
+                    "designation": "Admin",
+                    "emp_code": "0001",
+                    "prefix": null,
+                    "work_phone_number": "123456789",
+                    "mobile_phone_number": null,
+                    "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/0e8aa048-f652-48dc-8d7a-00621402d18c/7e358130-3b9e-11ec-9ee0-d72ce2d6a958.jpg",
+                    "hourly_labor_charge": 40,
+                    "is_active": true,
+                    "is_deleted": false,
+                    "created_at": "2020-05-07T06:19:34.000Z",
+                    "updated_at": "2022-12-19T06:10:59.000Z",
+                    "role": {
+                        "role_uid": "504e4eac-ff7d-11e7-8be5-0ed5f89f718b",
+                        "role_name": "Admin",
+                        "role_key": "ADMIN"
+                    }
+                },
+                "team": {
+                    "team_uid": "2a6a4f30-7833-4e8f-a627-6d09bb6fe0c9",
+                    "team_name": "Alpha Team",
+                    "team_color": null,
+                    "is_active": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "created_by": {
+            "user_uid": "d00a6c6d-6ad5-4799-92cc-b55fbd6c45a8",
+            "first_name": "John",
+            "last_name": "Mc Keever",
+            "email": "admin@zuper.co",
+            "external_login_id": null,
+            "home_phone_number": null,
+            "designation": "Tech",
+            "emp_code": "2030303",
+            "prefix": null,
+            "work_phone_number": null,
+            "mobile_phone_number": null,
+            "profile_picture": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/assets/profile_picture.jpg",
+            "hourly_labor_charge": 120,
+            "is_active": true,
+            "is_deleted": false,
+            "created_at": "2020-05-09T04:52:02.000Z",
+            "updated_at": "2022-07-28T10:21:40.000Z",
+            "role": {
+                "role_uid": "504e4eac-ff7d-11e7-8be5-0ed5f89f718b",
+                "role_name": "Admin",
+                "role_key": "ADMIN"
+            }
+        },
+        "is_deleted": false,
+        "created_at": "2023-12-26T03:44:03.987Z",
+        "updated_at": "2023-12-26T03:44:03.999Z",
+        "request_id": 301
+    },    
+    "PROJECT" : {
+        "project_uid": "a50c8090-ebfc-11ee-8ead-7b0735aa6b92",
+        "project_prefix": "",
+        "project_name": "New building construction",
+        "project_category": {
+            "category_uid": "3f970890-d629-11ee-839f-418ff021ceed",
+            "category_name": "Home cleaning project",
+            "prefix": "SP",
+            "display_order": 4,
+            "estimated_duration": {
+                "days": 10
+            },
+            "is_deleted": false,
+            "created_at": "2024-02-28T11:05:14.394Z",
+            "updated_at": "2024-03-25T09:43:16.866Z"
+        },
+        "project_priority": "MEDIUM",
+        "project_description": "<p>New construction</p>",
+        "project_template": null,
+        "project_current_status": {
+            "project_status_uid": "59f20320-d629-11ee-839f-418ff021ceed",
+            "project_status_name": "AC cleaning",
+            "project_status_type": "NEW",
+            "project_status_color": "#02B875"
+        },
+        "project_status": [
+            {
+                "project_status_uid": "59f20320-d629-11ee-839f-418ff021ceed",
+                "project_status_name": "AC cleaning",
+                "project_status_type": "NEW",
+                "project_status_color": "#02B875",
+                "done_by": {
+                    "user_uid": "297ff853-597b-4f24-a738-b24b4e4a41cf",
+                    "first_name": "Charles",
+                    "last_name": "R",
+                    "email": "Charles@Zuper.co",
+                    "external_login_id": null,
+                    "home_phone_number": null,
+                    "designation": "Admin",
+                    "emp_code": "1234",
+                    "prefix": null,
+                    "work_phone_number": null,
+                    "mobile_phone_number": null,
+                    "profile_picture": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/assets/profile_picture.jpg",
+                    "hourly_labor_charge": 20,
+                    "is_active": true,
+                    "is_deleted": false,
+                    "created_at": "2023-09-26T10:13:03.000Z",
+                    "updated_at": "2023-09-26T10:13:03.000Z"
+                },
+                "_id": "6603b182ba44b83237b6b0f7",
+                "created_at": "2024-03-27T05:41:22.844Z"
+            }
+        ],
+        "project_start_date": "2024-03-26T18:30:00.000Z",
+        "project_end_date": "2024-03-31T18:29:59.000Z",
+        "project_service_address": {
+            "landmark": "",
+            "city": "Washington ",
+            "state": "District of Columbia ",
+            "street": "Washington D.C., DC, USA",
+            "country": "United States",
+            "geo_cordinates": [
+                12.9786104,
+                80.2525517
+            ],
+            "first_name": "Charles",
+            "last_name": "R",
+            "phone_number": "",
+            "email": "Charles@Zuper.co"
+        },
+        "project_billing_address": {
+            "landmark": "",
+            "city": "Washington ",
+            "state": "District of Columbia ",
+            "street": "Washington D.C., DC, USA",
+            "country": "United States",
+            "geo_cordinates": [
+                12.9786104,
+                80.2525517
+            ],
+            "first_name": "Charles",
+            "last_name": "R",
+            "phone_number": "",
+            "email": "Charles@Zuper.co"
+        },
+        "project_due_date": "2024-03-31T18:29:59.000Z",
+        "organization": {
+            "organization_uid": "5e204750-b139-11ee-9b01-db1321d74395",
+            "organization_name": "Charles",
+            "organization_logo": null,
+            "organization_description": null,
+            "organization_email": null,
+            "no_of_customers": 2,
+            "organization_address": {
+                "city": "Washington ",
+                "state": "District of Columbia ",
+                "street": "Washington D.C., DC, USA",
+                "country": "United States",
+                "landmark": "",
+                "zip_code": "",
+                "geo_cordinates": [
+                    12.9249308,
+                    80.1000026
+                ],
+                "first_name": "",
+                "last_name": "",
+                "phone_number": "",
+                "email": ""
+            },
+            "organization_billing_address": {
+                "city": "Washington ",
+                "state": "District of Columbia ",
+                "street": "Washington D.C., DC, USA",
+                "country": "United States",
+                "landmark": "",
+                "zip_code": "",
+                "geo_cordinates": [
+                    12.9249308,
+                    80.1000026
+                ],
+                "first_name": "",
+                "last_name": "",
+                "phone_number": "",
+                "email": ""
+            },
+            "is_active": true,
+            "is_deleted": false,
+            "created_at": "2024-01-12T10:57:24.558Z",
+            "updated_at": "2024-01-29T10:54:07.490Z"
+        },
+        "customer": {
+            "customer_uid": "faa2f640-9fcd-11ee-8309-eb7ebd14f2c5",
+            "customer_first_name": "Charles",
+            "customer_last_name": "R",
+            "customer_company_name": "",
+            "customer_email": "Charles@Zuper.co",
+            "customer_contact_no": {
+                "mobile": "",
+                "home": "",
+                "work": ""
+            },
+            "customer_address": {
+                "city": "Washington ",
+                "state": "District of Columbia ",
+                "street": "Washington D.C., DC, USA",
+                "country": "United States",
+                "landmark": "",
+                "geo_cordinates": [
+                    38.9071923,
+                    -77.0368707
+                ]
+            },
+            "accounts": {
+                "credits": 0,
+                "ltv": 0,
+                "receivables": 0
+            },
+            "is_active": true,
+            "is_deleted": false,
+            "created_at": "2023-12-21T06:55:51.726Z",
+            "updated_at": "2024-03-27T05:42:26.560Z"
+        },
+        "properties": [
+            {
+                "property": {
+                    "is_deleted": false,
+                    "is_active": true,
+                    "property_address": {
+                        "city": "Washington ",
+                        "state": "District of Columbia ",
+                        "street": "Washington D.C., DC, USA",
+                        "country": "United States",
+                        "landmark": "",
+                        "zip_code": "",
+                        "geo_cordinates": [
+                            12.9653652,
+                            80.2461057
+                        ],
+                        "_id": "65c9dc3a18c44f6b7c69d658"
+                    },
+                    "property_image": "",
+                    "no_of_jobs": 2,
+                    "property_name": "Charles property",
+                    "property_uid": "027da9c0-c984-11ee-ac54-d5ac9e67b86c",
+                    "updated_at": "2024-03-27T05:42:25.542Z",
+                    "created_at": "2024-02-12T08:52:10.986Z"
+                }
+            }
+        ],
+        "assets": [
+            {
+                "asset": {
+                    "asset_uid": "b630bca0-bb4c-11ee-9a64-11f45435e0e0",
+                    "asset_code": "A243",
+                    "asset_name": "Vacuum Cleaner - Address Picker",
+                    "asset_image": null,
+                    "asset_category": "5e986aadcbb0a15839381b24",
+                    "asset_status": "",
+                    "asset_serial_number": null,
+                    "asset_quantity": 1,
+                    "purchase_date": "2024-01-24T18:30:00.000Z",
+                    "warranty_expiry_date": "2024-01-31T18:29:59.000Z",
+                    "placed_in_service": null,
+                    "is_deleted": false,
+                    "is_active": true,
+                    "created_at": "2024-01-25T06:41:04.522Z",
+                    "updated_at": "2024-01-25T06:53:46.340Z"
+                }
+            }
+        ],
+        "service_contracts": [
+            {
+                "service_contract": {
+                    "prefix": "",
+                    "contract_uid": "08ed1570-babb-11ee-bd57-0dd147025ec6",
+                    "ref_no": "",
+                    "contract_name": "Charles AC contract",
+                    "start_date": "2024-02-29T18:29:59.000Z",
+                    "end_date": "2024-03-28T18:29:59.000Z",
+                    "term_months": 1,
+                    "activation_date": "2024-03-29T18:30:00.000Z",
+                    "approval_status": "APPROVED",
+                    "await_approval_by": null,
+                    "invoice_settings": {
+                        "auto_generate": false,
+                        "send_to_customer": false,
+                        "billing_period": "5dc649ed31b83c2935b0ae22",
+                        "generate_invoice_days": null,
+                        "payment_term": "5d84c17f3954a6638587479c",
+                        "invoice_template": "5d945b7f9ca8205601d251e7"
+                    },
+                    "contract_subtotal": 0,
+                    "contract_total": 0,
+                    "created_by": 8234,
+                    "is_active": true,
+                    "is_expired": false,
+                    "is_deleted": false,
+                    "assigned_to": [],
+                    "created_at": "2024-01-24T13:18:17.011Z",
+                    "updated_at": "2024-01-24T13:18:17.019Z",
+                    "contract_number": 918
+                }
+            }
+        ],
+        "attachments": [],
+        "project_manager": {
+            "user_uid": "297ff853-597b-4f24-a738-b24b4e4a41cf",
+            "first_name": "Charles",
+            "last_name": "R",
+            "email": "Charles@Zuper.co",
+            "external_login_id": null,
+            "home_phone_number": null,
+            "designation": "Admin",
+            "emp_code": "1234",
+            "prefix": null,
+            "work_phone_number": null,
+            "mobile_phone_number": null,
+            "profile_picture": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/assets/profile_picture.jpg",
+            "hourly_labor_charge": 20,
+            "is_active": true,
+            "is_deleted": false,
+            "created_at": "2023-09-26T10:13:03.000Z",
+            "updated_at": "2023-09-26T10:13:03.000Z"
+        },
+        "project_tags": [
+            "Purifier Service"
+        ],
+        "project_assigned_to": [
+            {
+                "user": {
+                    "user_uid": "50689376-6348-41dd-81e3-9d75dc73027d",
+                    "first_name": "Charles",
+                    "last_name": "R",
+                    "email": "Charles@zuper.co",
+                    "external_login_id": null,
+                    "home_phone_number": null,
+                    "designation": "Test",
+                    "emp_code": "5000",
+                    "prefix": null,
+                    "work_phone_number": "8220131280",
+                    "mobile_phone_number": null,
+                    "profile_picture": "https://s3.ap-south-1.amazonaws.com/staging.in.pro.zuper/attachments/6c287db0-ff7c-11e7-b3a8-29b417a4f3fa/04a37b90-9a53-11ee-8187-39c77e7ec503.webp",
+                    "hourly_labor_charge": 20,
+                    "is_active": true,
+                    "is_deleted": false,
+                    "created_at": "2023-05-05T06:57:26.000Z",
+                    "updated_at": "2024-02-02T09:45:20.000Z"
+                },
+                "team": {
+                    "team_uid": "a71b9e34-69a2-4d7d-8079-503b6def12ca",
+                    "team_name": "Akash1",
+                    "team_color": "#4960a0",
+                    "is_active": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "is_deleted": false,
+        "is_active": true,
+        "created_by": {
+            "user_uid": "297ff853-597b-4f24-a738-b24b4e4a41cf",
+            "first_name": "John",
+            "last_name": "Mc Keever",
+            "email": "admin@zuper.co",
+            "external_login_id": null,
+            "home_phone_number": null,
+            "designation": "Admin",
+            "emp_code": "1234",
+            "prefix": null,
+            "work_phone_number": null,
+            "mobile_phone_number": null,
+            "profile_picture": "https://s3.ap-south-1.amazonaws.com/prod.app.zuperpro/assets/profile_picture.jpg",
+            "hourly_labor_charge": 20,
+            "is_active": true,
+            "is_deleted": false,
+            "created_at": "2023-09-26T10:13:03.000Z",
+            "updated_at": "2023-09-26T10:13:03.000Z"
+        },
+        "jobs": [
+            {
+                "job": {
+                    "job_uid": "ca650c90-ebfc-11ee-8ead-7b0735aa6b92",
+                    "job_title": "New floor - Charles property",
+                    "job_priority": "LOW",
+                    "due_date": "2024-03-31T18:29:59.000Z",
+                    "customer_address": {
+                        "landmark": "",
+                        "city": "Washington ",
+                        "state": "District of Columbia ",
+                        "street": "Washington D.C., DC, USA",
+                        "country": "United States",
+                        "zip_code": "",
+                        "geo_cordinates": [
+                            12.9653652,
+                            80.2461057
+                        ],
+                        "first_name": "",
+                        "last_name": "",
+                        "phone_number": "",
+                        "email": ""
+                    },
+                    "customer_billing_address": {
+                        "landmark": "advhicuds ",
+                        "city": "Washington ",
+                        "state": "District of Columbia ",
+                        "street": "Washington D.C., DC, USA",
+                        "country": "United States",
+                        "zip_code": "600041",
+                        "geo_cordinates": [
+                            12.6819372,
+                            79.98884129999999
+                        ],
+                        "first_name": "Charles",
+                        "last_name": "R",
+                        "email": "Charles@Zuper.co"
+                    },
+                    "is_deleted": false,
+                    "created_at": "2024-03-27T05:42:26.533Z",
+                    "updated_at": "2024-03-27T05:42:27.390Z",
+                    "work_order_number": 16555
+                },
+                "sequence": 1
+            }
+        ],
+        "created_at": "2024-03-27T05:41:22.852Z",
+        "updated_at": "2024-03-27T05:42:26.573Z",
+        "project_number": 81
+    }
+}

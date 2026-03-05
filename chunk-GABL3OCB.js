@@ -1,0 +1,1 @@
+import{f as o,la as r}from"./chunk-34X77BBF.js";var a=(()=>{class t{constructor(){this.onTabChange=new o}static{this.\u0275fac=function(e){return new(e||t)}}static{this.\u0275prov=r({token:t,factory:t.\u0275fac,providedIn:"root"})}}return t})();export{a};

@@ -1,0 +1,1 @@
+import{la as o,qb as a}from"./chunk-34X77BBF.js";import{a as s}from"./chunk-G6LNOBMT.js";var f=(()=>{class t{constructor(){this.toastState=a({show:!1,message:null})}show(e){this.toastState.set({show:!0,message:s({},e)})}static{this.\u0275fac=function(r){return new(r||t)}}static{this.\u0275prov=o({token:t,factory:t.\u0275fac,providedIn:"root"})}}return t})();export{f as a};

@@ -1,0 +1,1 @@
+import{la as r}from"./chunk-34X77BBF.js";var n=(()=>{class t{constructor(){}setDownloadUrl(o){this.subHtml=o}getDownloadUrl(o){this.subHtml(o)}static{this.\u0275fac=function(e){return new(e||t)}}static{this.\u0275prov=r({token:t,factory:t.\u0275fac,providedIn:"root"})}}return t})();export{n as a};

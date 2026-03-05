@@ -1,0 +1,1 @@
+import{za as i}from"./chunk-34X77BBF.js";var c=(()=>{class r{transform(t,e){return this.replaceTemplate(t,e)}replaceTemplate(t,e){return t.replace(/\{\{(\w+)\}\}/g,(a,p)=>e[p]!==void 0?e[p]:a)}static{this.\u0275fac=function(e){return new(e||r)}}static{this.\u0275pipe=i({name:"replace",type:r,pure:!0,standalone:!0})}}return r})();export{c as a};
